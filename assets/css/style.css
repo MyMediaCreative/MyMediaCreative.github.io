@@ -1,0 +1,58 @@
+body{
+  background-color: #E1E9F0;
+}
+h1 {
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 50px;
+}
+h2 {
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 35px;
+}
+p{
+  font-family: montserrat;
+  font-size: 35px;
+}
+
+.jumbotron {
+  padding: 0px;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat/Montserrat-Italic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat/Montserrat-SemiBoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+/* @font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat/Montserrat-LightItalic.ttf);
+  font-weight: lighter;
+  font-style: italic;
+} */
