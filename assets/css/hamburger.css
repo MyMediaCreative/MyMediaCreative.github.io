@@ -15,7 +15,7 @@ body {
     background-color:var(--grey);
     padding-left: 8vw;
     padding-right: 8vw;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .overlay-content {
