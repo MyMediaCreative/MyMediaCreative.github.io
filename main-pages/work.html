@@ -1,0 +1,153 @@
+---
+layout: "wrapper"
+title: Work
+permalink: /work
+---
+
+<script src="../assets/js/filter-work.js"></script>
+<!-- Header -->
+<div class="container-fluid" style="background-color:var(--grey); padding-left: 8vw; padding-right:8vw; position: relative; overflow: hidden; min-height: 80vh">
+    {% include menu.html button="work" percolor="dblue" %}
+    <div class="row"><div class="col-10 col-md-9 offset-sm-1 header align-self-center">
+          <h1>Our work is tied together by two things: <span style='color:var(--dorange); font-size: inherit'>passion</span> <span class="avoidwrap">and <span style='color:var(--dorange); font-size: inherit'>care</span>.</span></h1>
+          <h2>That’s the common thread between every campaign, brand, website, and piece of content. It’s what makes My Media what it is. Take a look.</h2>
+    </div></div>
+    {% include circle.html mobile="hide-mobile" color="dblue" size="19" top="10" left="-9" z="0"%}
+    {% include circle.html mobile="hide-mobile" color="lblue" size="22" top="17" left="56" z="0"%}
+    {% include circle.html mobile="hide-mobile" color="white" size="17" top="-20" left="95" z="0"%}
+    {% include circle.html mobile="hide-mobile" color="dorange" size="9.3" top="90" left="12" z="0"%}
+    {% include circle.html mobile="hide-mobile" color="lorange" size="12" top="100" left="62" z="0"%}
+    {% include circle.html mobile="hide-mobile" color="navy" size="6" top="60" left="85" z="0"%}
+
+    {% include circle.html mobile="show-mobile" color="dblue" size="19" top="130" left="-9" z="0"%}
+    {% include circle.html mobile="show-mobile" color="lblue" size="22" top="35" left="36" z="0"%}
+    {% include circle.html mobile="show-mobile" color="white" size="23" top="-30" left="80" z="0"%}
+    {% include circle.html mobile="show-mobile" color="navy" size="6" top="5" left="18" z="0"%}
+    {% include circle.html mobile="show-mobile" color="dorange" size="12" top="160" left="62" z="0"%}
+    {% include circle.html mobile="show-mobile" color="lorange" size="9" top="70" left="85" z="0"%}
+</div>
+
+<div class="container-fluid" style="background-color:var(--white); position: relative; z-index: 2; padding-left: 13vw; padding-right:13vw">
+      <div class="row justify-content-end"><div class="col" style="margin-top: 10em; margin-bottom: 5em">
+          <h1>Our Portfolio</h1>
+      </div></div>
+      <div class="row"><div class="col" style="display:inline; margin-bottom: 5em">
+            <div id="filterby" style="display:inline">
+              <button class="filter" id="all" onclick="filterSelection('all')" >all</button>
+              <p class="filter-line">|</p>
+              <button class="filter" onclick="filterSelection('vid')">video</button>
+              <button class="filter" onclick="filterSelection('web')">web</button>
+              <button class="filter" onclick="filterSelection('brand')">brand</button>
+              <button class="filter" onclick="filterSelection('socmed')">social media</button>
+      </div></div>
+      </div>
+      <div class="row py-5 justify-content-between proj-cont">
+        {% include project-preview.html type="brand socmed web"
+                                        fullname="Youth Impact Challenge"
+                                        shortname="YIC" subtitle="website + brand + social media" %}
+
+        {% include project-preview.html type="vid web"
+                                        fullname="Divest McGill"
+                                        shortname="divest" subtitle="video + website" %}
+
+        {% include project-preview.html type="vid"
+                                        fullname="MealCare National"
+                                        shortname="mealcare" subtitle="video" %}
+
+        {% include project-preview.html type="brand socmed"
+                                        fullname="MMC Fest"
+                                        shortname="mmc-fest" subtitle="brand + social media" %}
+
+        {% include project-preview.html type="vid socmed"
+                                        fullname="The School of Music Montreal"
+                                        shortname="SOMM" subtitle="video + social media" %}
+
+        {% include project-preview.html type="brand"
+                                        fullname="IndigIrecruit"
+                                        shortname="indigirecruit" subtitle="brand" %}
+
+        {% include project-preview.html type="vid"
+                                        fullname="Third Culture Apparel"
+                                        shortname="TCA" subtitle="video" %}
+
+        {% include project-preview.html type="vid web"
+                                        fullname="Black Students' Network"
+                                        shortname="BSN" subtitle="video + website" %}
+
+        {% include project-preview.html type="vid"
+                                        fullname="Kitchen 24"
+                                        shortname="kitchen-24" subtitle="video" %}
+
+        {% include project-preview.html type="brand"
+                                        fullname="Thrive Collective"
+                                        shortname="thrive" subtitle="brand" %}
+
+        {% include project-preview.html type="vid"
+                                        fullname="Eating Disorder Resource & Support Centre"
+                                        shortname="EDRSC" subtitle="video" %}
+
+{% comment %}        {% include project-preview.html type="brand"
+                                        fullname="COVID-19 Response"
+                                        shortname="covid-response" subtitle="brand" %}  {% endcomment %}
+
+        {% include project-preview.html type="vid web"
+                                        fullname="Canadian Business Youth Council"
+                                        shortname="CBYC" subtitle="video + website" %}
+
+        {% include project-preview.html type="brand"
+                                        fullname="Welcomia"
+                                        shortname="welcomia" subtitle="brand" %}
+
+        {% include project-preview.html type="vid"
+                                        fullname="DriveSafe"
+                                        shortname="drivesafe" subtitle="video" %}
+
+        {% include project-preview.html type="vid"
+                                        fullname="McGill African Students Society"
+                                        shortname="MASS" subtitle="video" %}
+
+        {% include project-preview.html type="vid"
+                                        fullname="Youth Outreach Program"
+                                        shortname="YOP" subtitle="video" %}
+
+
+{% comment %}        {% include project-preview.html type="vid"
+                                        fullname="Teacher's Life"
+                                        shortname="teachers-life" subtitle="video" %} {% endcomment %}
+
+{% comment %}        {% include project-preview.html type="brand"
+                                        fullname="Milton Parc Citizen's Committee"
+                                        shortname="MPCC" subtitle="brand" %} {% endcomment %}
+      </div>
+
+      <!-- <div class="row"><div class="col showmore-wrap">
+              <button class="showmore" onclick="showMore()">show more</button>
+      </div></div> -->
+</div>
+
+<style>
+  /* This is all menu things, from hover effects to general styling */
+  #filterby{ pointer-events: none }
+  #filterby:hover .filter{ opacity: .2 }
+  #filterby:hover .filter-line{ opacity: .2 }
+  .filter:hover { opacity: 1 !important }
+  .filter:focus { outline: none; text-decoration: underline }
+
+  .filter, .filter-line, .showmore {
+    pointer-events: auto;
+    font-family: 'Montserrat-R';
+    text-align: left;
+    background-color: inherit;
+    border: none;
+    display: inline;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 3em;
+    margin-right: 1vw
+  }
+
+  .showmore-wrap{ text-align: center; display:inline; height: 15em }
+  .showmore { text-decoration: underline }
+  .showmore:focus { outline: none }
+</style>

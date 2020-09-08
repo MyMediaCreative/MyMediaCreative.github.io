@@ -1,0 +1,189 @@
+---
+layout: "wrapper"
+title: About
+permalink: /about
+---
+
+<!-- Header -->
+<div class="container-fluid" style="background-color:var(--dblue); padding-left: 8vw; padding-right:8vw">
+    {% include menu-white.html button="about" color="-orng" percolor="navy" %}
+    <div class="row"><div class="col-9 offset-md-1 header w">
+          <h1>My Media is a youth-run creative agency for the unheard<span class='big-period' style='color:var(--dorange)'>.</span></h1>
+          <h2>We work with nonprofits, social enterprises, community organizations, and activist groups to tell compelling stories.</h2>
+    </div></div>
+    {% include circle.html mobile="hide-mobile" color="navy" size="20" top="20" left="5" z="0"%}
+    {% include circle.html mobile="hide-mobile" color="dorange" size="15" top="80" left="60" z="0"%}
+    {% include circle.html mobile="hide-mobile" color="white" size="7" top="30" left="80" z="0"%}
+
+    {% include circle.html mobile="show-mobile" color="navy" size="25" top="20" left="5" z="0"%}
+    {% include circle.html mobile="show-mobile" color="dorange" size="18" top="140" left="60" z="0"%}
+    {% include circle.html mobile="show-mobile" color="white" size="12" top="60" left="85" z="0"%}
+</div>
+
+<!-- "stories make change" through to icons -->
+<div class="container-fluid" style="background-color:var(--grey); position: relative; z-index: 2; padding-left: 12vw; padding-right:12vw">
+      <div class="row" style="padding-top: 20em; padding-bottom: 20em">
+          <h1>We know that great stories make <span class="avoidwrap">real change.</span></h1>
+          <h2><br> We want to help you stand out, advocate, disrupt, and grow. None of this happens by sticking to the status quo. Our job is creative innovation. Our tools are video, design, and strategy. <a class="uf ul" href="/work">Our purpose is you</a>.</h2>
+      </div>
+
+      <div class="row" style="margin-bottom: 5em">
+          <h1>We're all about coming up with <span class="avoidwrap">great ideas.</span></h1>
+      </div>
+      <div class="row justify-content-between" style="padding-bottom: 10em">
+        <div class="col-md-4 col-xl-3" style="padding-bottom: 10em">
+          <img class="idea-icon"src="../assets/icons/icon-learn.png">
+          <h1 class="icon-title">Learn.</h1>
+          <h2 class="icon-title">We start by learning. Our creative process is rooted in research and discussion &mdash; so we can make something that is true to you. We’ll start by getting to know your org.</h2>
+        </div>
+        <div class="col-md-4 col-xl-3" style="padding-bottom: 10em">
+          <img class="idea-icon"src="../assets/icons/icon-collab.png">
+          <h1 class="icon-title">Collaborate.</h1>
+          <h2 class="icon-title">Community is the engine of our creativity. We’ll bring the project to our team of creatives, and think through a bunch of ideas. This collaborative approach unlocks innovate creativity.</h2>
+        </div>
+        <div class="col-md-4 col-xl-3" style="padding-bottom: 10em">
+          <img class="idea-icon"src="../assets/icons/icon-create.png">
+          <h1 class="icon-title">Create.</h1>
+          <h2 class="icon-title">We execute with precision. Once we’ve pitched you an idea that you love, our passionate team of videographers, designers, and marketers will bring it to life (with your input).</h2>
+        </div>
+      </div>
+</div>
+
+<div class="container-fluid" style="background-color:var(--white); padding-left: 12vw; padding-right:12vw">
+  <div class="row" style="padding-top: 20em; padding-bottom: 20em"><div class="col">
+      <h1>We want you to be heard.</h1>
+      <h2><br> We want to work with you. Check out our work to learn more. If you're interested, just reach out! We'd love to get a discussion started.
+        <br><br> <a href="/work" style="padding-right: 4em; font-family: Montserrat-S; color: var(--navy)">Check out our portfolio.</a> <a class="avoidwrap" style="padding-right: 4em; line-height: 5; font-family: Montserrat-S; color: var(--navy)" href="/contact">Get in touch with us.</a></h2>
+  </div></div>
+  <div class="row" style="padding-bottom: 5em">
+      <h1>Meet the team that makes <span class="avoidwrap">it happen.</span></h1>
+  </div>
+  <div class="row" style="padding-bottom: 5em">
+      <div class="col" style="display: inline; padding-left: 0">
+        <div id="filterby" style="display:inline">
+          <button id="all" class="filter" onclick="filterSelection('all')">all</button>
+          <p class="filter-line">|</p>
+          <button class="filter" onclick="filterSelection('exec')">executive</button>
+          <button class="filter" onclick="filterSelection('creat')">creative</button>
+        </div>
+      </div>
+  </div>
+
+  {% comment %}
+  {% include about-profile.html right="hide" type="creat first last"
+              name="Amy Cooper" title="Creative"
+              content="Amy is a Product Designer at My Media, creating pixel-perfect digital products and creative content with incredible user experiences. She enjoys listening to music, staying active, and reading." %}
+
+  {% include about-profile.html left="hide" type="creat first last"
+              name="Camille Point" title="Creative"
+              content="Camille is a creative at My Media, specializing in graphic design and video making and ultimately driven to make a positive impact through creating compelling media content for purpose-driven organizations. She also enjoys bread and spending time with her cat." %}
+
+  {% include about-profile.html right="hide" type="creat first last"
+              name="Christian Younder" title="Creative"
+              content="Big Yoshi is the Executive Yoshi at My Media. He's a big ol' green guy. Yoshi! That's the sound he makes. Yeah, I mean, he's uh, he's sittin' there. Need the big one though. He also plays the saxophone." %}
+
+  {% include about-profile.html left="hide" type="creat first last"
+              name="David Boot" title="Creative"
+              content="Big Yoshi is the Executive Yoshi at My Media. He's a big ol' green guy. Yoshi! That's the sound he makes. Yeah, I mean, he's uh, he's sittin' there. Need the big one though. He also plays the saxophone." %}
+  {% endcomment %}
+
+
+  {% include about-profile.html right="hide" type="exec creat"
+              name="Tristan Surman" title="Executive Director"
+              content="Tristan is the Executive Director at My Media, helping the team get access to the strategies, tools and opportunities that drive the organization forward. He loves making music, writing, and learning." %}
+
+  {% include about-profile.html left="hide" type="exec creat"
+              name="Tony Wang" title="Creative Director"
+              content="Tony is the Creative Director at My Media—he makes sure everything looks pretty and manages the Creative Team. He’s a big fan of horror films, Carly Rae Jepsen, and em dashes." %}
+
+  {% include about-profile.html right="hide" type="exec creat"
+              name="Ella Roy" title="Art Director"
+              content="Ella is our Art and Brand Director. She’s here to oversee My Media’s brand, and works directly with clients to build visual identities and brand strategies. She loves all kinds of design, discovering new places in Montreal and binge-watching The Office."%}
+
+  {% include about-profile.html left="hide" type="exec creat"
+              name="Sofia Mikton" title="Campaigns Director"
+              content="Sofia is the Campaigns Director at My Media. She works with clients and creatives to facilitate and coordinate campaigns. Sofia enjoys reading, baking and playing words with friends." %}
+
+  {% include about-profile.html right="hide" type="exec creat"
+              name="Max Brauch" title="Director of Video"
+              content="As the Director of Video Production at My Media, Max helps to shoot, edit, direct, and oversee all of the organization’s video content. He is a student filmmaker, and believes passionately in the power of activism through storytelling." %}
+
+  {% include about-profile.html left="hide" type="exec creat"
+              name="Liam Chung" title="Director of Tech and Web"
+              content="Liam is the Director of Technology and Web at My Media, designing and developing the organization's website, and lending expertise in the technical aspects of modern activism. He loves hip hop, Lord of the Rings, and math." %}
+
+  {% include about-profile.html right="hide" type="exec"
+              name="Ana Earl" title="Director of Operations"
+              content="Ana is the Director of Operations at My Media. She makes sure the team functions and operates smoothly and designs the digital media education program. Ana loves her dog, Bee, running, and sweet potatoes." %}
+
+  {% include about-profile.html left="hide" type="exec"
+              name="Rachael Madore" title="Director of Outreach"
+              content="Rachael is the Director of Outreach at My Media, forging connections with change making non-profits and creatives alike to push us forward in our goal to amplify impact. She loves writing music, mindfulness, and markets." %}
+
+  {% include about-profile.html right="hide" type="exec"
+              name="Mako Sorensen" title="Director of Education"
+              content="Mako is a Co-Director of Education at My Media. He works in collaboration with the creatives to run immersive workshops and educational events. His main interests are in neuroscience and social activism, but what he loves most are people." %}
+
+  {% include about-profile.html left="hide" type="exec"
+              name="Nikhita Panwar" title="Director of Education"
+              content="Nikhita is a Co-Director of Education at My Media. She works to plan the education curriculum and workshops for My Media and coordinates with external partner organisations for the education program. She likes cooking, eating, and buying more plants than she has space for." %}
+
+  {% include about-profile.html right="hide" type="exec"
+              name="Julia Drummond" title="Director of Social Media"
+              content="Julia is the Director of Social Media at My Media, planning and managing the organization's social media accounts, and interacting with clients, community members, and creatives. She loves going to the beach, True Detective, and Montreal bagels." %}
+
+  {% include about-profile.html left="hide" type="exec"
+              name="Beatrice Dimaculangan" title="Director of Community"
+              content="Bea is the Community Director of My Media, contributing her activism/organizing experience to help facilitate workshops and foster connections with the community. She is a human rights activist and enjoys painting and making music." %}
+
+  {% include about-profile.html right="hide" type="creat last"
+              name="Amy Cooper" title="Creative"
+              content="Amy is a Product Designer at My Media, creating pixel-perfect digital products and creative content with incredible user experiences. She enjoys listening to music, staying active, and reading." %}
+
+  {% include about-profile.html left="hide" type="creat last"
+              name="Camille Point" title="Creative"
+              content="Camille is a creative at My Media, specializing in graphic design and video making and ultimately driven to make a positive impact through creating compelling media content for purpose-driven organizations. She also enjoys bread and spending time with her cat." %}
+
+  {% include about-profile.html right="hide" type="creat last"
+              name="Christian Younder" title="Creative"
+              content="Christian is a creative at My Media focusing on graphic design, and is fluent in many programs such as Photoshop, Illustrator, Blender3D & Figma. He loves consuming well written fiction, and on the weekends specializes in the arcane arts of enhanced procrastination." %}
+
+  {% include about-profile.html left="hide" type="creat last"
+              name="David Boot" title="Creative"
+              content="David is a videographer at My Media, responsible for shooting and editing video content. He loves rap music, Chinese food and the outdoors." %}
+
+  <div class="row" style="height: 15em"></div>
+  {% include circle.html mobile="hide-mobile" color="lblue" size="12" top="255" left="6" z="0"%}
+  {% include circle.html mobile="hide-mobile" color="dorange" size="8" top="300" left="80" z="0"%}
+</div>
+
+<script src="../assets/js/filter-about.js"></script>
+
+<style>
+  h1.icon-title { margin-bottom: .4em; margin-top: .4em }
+  img { display: inline; max-height: 100%; max-width: 100%; min-height: 50px; min-width: 50px }
+
+  @media only screen and (max-width: 767px) { h1.icon-title { font-size: 5em } h2.icon-title { font-size: 3em } .idea-icon { height: 15vw; min-height: 50px } }
+  @media only screen and (min-width: 768px) { h1.icon-title { font-size: 3em } h2.icon-title { font-size: 2em } .idea-icon { height: 5vw; min-height: 50px } }
+
+  /* This is all menu things, from hover effects to general styling */
+  #filterby{ pointer-events: none }
+  #filterby:hover .filter{ opacity: .2 }
+  #filterby:hover .filter-line{ opacity: .2 }
+  .filter:hover { opacity: 1 !important }
+  .filter:focus { outline: none; text-decoration: underline; opacity: 1 !important }
+
+  .filter, .filter-line {
+    pointer-events: auto;
+    font-family: 'Montserrat-R';
+    text-align: left;
+    background-color: inherit;
+    border: none;
+    display: inline;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .filter, .filter-line { font-size: 3em; margin-right: 1vw }
+
+</style>

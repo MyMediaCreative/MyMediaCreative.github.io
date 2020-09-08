@@ -1,0 +1,45 @@
+<div class="row align-items-center justify-content-between" style="height:30em; margin-left:-4vw; margin-right:-4vw">
+      <div class="col-xs-2 mx-4">
+        <a href="/"><img src="../assets/icons/logo-small-white{{ include.color }}.png" style="height: 4.5vw; min-height: 40px; background-color:transparent"></a>
+      </div>
+
+      <div class="col-xs-2 mt-2 mx-4 show-mobile">
+        <img src="../assets/icons/hamburger-white.png" style="height: 4vw; min-height: 20px; min-width: 20px" onclick="openNav()">
+      </div>
+
+      <div class="hide-mobile col-10 text-right">
+        <div id="menubar" style="display: inline">
+          <div id="work"><a class="menubar w" href="/work">work</a></div>
+          <div id="education"><a class="menubar w" href="/education">education</a></div>
+          <div id="jobs"><a class="menubar w" href="/jobs">jobs</a></div>
+          <div id="about"><a class="menubar w" href="/about">about</a></div>
+          <div id="contact"><a class="menubar w" href="/contact">contact</a></div>
+        </div>
+        <!-- <p class="menubar w">|</p>
+        <a class="menubar w" style="margin-right: 0vw" href="/404.html">fr</a> -->
+      </div>
+</div>
+
+<style type="text/CSS">
+  #menubar{ pointer-events: none }
+  #menubar:hover .menubar{ opacity: .2 }
+  #menubar > div { display: inline }
+  .menubar:hover { opacity: 1 !important }
+  .menubar {
+    pointer-events: auto;
+    font-family: 'Montserrat-R';
+    text-align: left;
+    background-color: inherit;
+    border: none;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+    margin-right: 3vw;
+  }
+  #menubold { font-family: Montserrat-S; display: inline; pointer-events:auto; margin-bottom: 0em; margin-right: 2.2vw }
+</style>
+
+<script>
+document.getElementById("{{ include.button }}").innerHTML = "<a id='menubold' class='w' href='/{{include.button}}'>{{ include.button }}<span class='big-period' style='color:var(--{{ include.percolor }})'>.</span></a>";
+</script>

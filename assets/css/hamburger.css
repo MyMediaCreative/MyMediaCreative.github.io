@@ -1,0 +1,61 @@
+body {
+    font-family: 'Montserrat-R', sans-serif;
+}
+
+#myNav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow-x: hidden;
+    transition: 0.7s;
+    opacity: 0;
+    z-index: 0;
+    background-color:var(--grey);
+    padding-left: 8vw;
+    padding-right: 8vw;
+    overflow: hidden
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+#myNav a {
+    padding: 8px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) { #myNav a { font-size:6em } .overlay-content { padding-top:5vh } }
+@media only screen and (min-width: 601px) { #myNav a { font-size:4em } .overlay-content { margin-top:-5vh } }
+
+.fixed-position {
+   position: fixed;
+}
+
+#myNav a:hover,
+#myNav a:focus {
+    text-decoration: underline;
+}
+
+#myNav .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.hb-op { margin-right: 5em; opacity: 0; transition: 0.7s }
+
+#hb-home { transition-delay: .1s }
+#hb-work { transition-delay: .2s }
+#hb-education { transition-delay: .3s }
+#hb-jobs { transition-delay: .4s }
+#hb-about { transition-delay: .5s }
+#hb-contact { transition-delay: .6s }
+#hb-fr { transition-delay: .7s }
