@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>RELLAX | My Media Creative</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="RELLAX" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/assets/js/rellax/" />
+<meta property="og:url" content="http://localhost:4000/assets/js/rellax/" />
+<meta property="og:site_name" content="My Media Creative" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/assets/js/rellax/","headline":"RELLAX","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="My Media Creative" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">My Media Creative</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/work/AisB">Apathy is Boring</a><a class="page-link" href="/work/BSN">Black Students&#39; Network</a><a class="page-link" href="/work/CBYC">Canadian Business Youth Council</a><a class="page-link" href="/work/EDRSC">Eating Disorder Resource &amp; Support Centre</a><a class="page-link" href="/work/MASS">McGill African Students&#39; Society</a><a class="page-link" href="/work/MPCC">Milton Parc Citizens&#39; Committee</a><a class="page-link" href="/work/NSILC">North Saskatchewan Independent Living Centre</a><a class="page-link" href="/work/SOMM">School of Music Montreal</a><a class="page-link" href="/work/TCA">Third Culture Apparel</a><a class="page-link" href="/work/YIC">Youth Impact Challenge</a><a class="page-link" href="/work/YOP">Youth Outreach Program</a><a class="page-link" href="/about">About</a><a class="page-link" href="/contact">Contact</a><a class="page-link" href="/work/covid-response">COVID-19 Response</a><a class="page-link" href="/work/divest">Divest McGill</a><a class="page-link" href="/work/drivesafe">DriveSafe</a><a class="page-link" href="/skills">Skills</a><a class="page-link" href="/">Home</a><a class="page-link" href="/work/indigirecruit">IndigIrecruit</a><a class="page-link" href="/jobs">Jobs</a><a class="page-link" href="/work/kitchen-24">Kitchen 24</a><a class="page-link" href="/work/mealcare">MealCare</a><a class="page-link" href="/work/mmc-fest">MMC Fest</a><a class="page-link" href="/work/olympia">Olympia Immigration Consultancy</a><a class="page-link" href="/work/teachers-life">Teacher&#39;s Life</a><a class="page-link" href="/work/thrive">Thrive Collective</a><a class="page-link" href="/work/upstart">UpstartED</a><a class="page-link" href="/work/welcomia">Welcomia</a><a class="page-link" href="/work">Work</a><a class="page-link" href="/assets/js/rellax/">RELLAX</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">RELLAX</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="rellax">RELLAX</h1>
+
+<p><a href="https://www.npmjs.org/package/rellax"><img src="https://img.shields.io/npm/v/rellax.svg" alt="NPM Package" /></a>
+<a href="https://bundlephobia.com/result?p=rellax"><img src="https://img.shields.io/bundlephobia/min/rellax.svg?label=minified" alt="Minified Size" /></a>
+<a href="https://bundlephobia.com/result?p=rellax"><img src="https://img.shields.io/bundlephobia/minzip/rellax.svg?label=gzipped" alt="Gzipped Size" /></a></p>
+
+<p>Rellax is a buttery smooth, super lightweight, vanilla javascript parallax library. <strong>Update:</strong> Rellax now works on mobile (v1.0.0).</p>
+
+<ul>
+  <li><a href="https://dixonandmoe.com/rellax/">Demo Website</a></li>
+</ul>
+
+<h2 id="getting-started">Getting Started</h2>
+<p><code class="language-plaintext highlighter-rouge">npm install rellax --save</code> or if you’re old school like us download and insert <code class="language-plaintext highlighter-rouge">rellax.min.js</code></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"rellax"</span><span class="nt">&gt;</span>
+  I’m that default chill speed of "-2"
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"rellax"</span> <span class="na">data-rellax-speed=</span><span class="s">"7"</span><span class="nt">&gt;</span>
+  I’m super fast!!
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"rellax"</span> <span class="na">data-rellax-speed=</span><span class="s">"-4"</span><span class="nt">&gt;</span>
+  I’m extra slow and smooth
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"rellax.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+  <span class="c1">// Accepts any class name</span>
+  <span class="kd">var</span> <span class="nx">rellax</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rellax</span><span class="p">(</span><span class="dl">'</span><span class="s1">.rellax</span><span class="dl">'</span><span class="p">);</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+  <span class="c1">// Also can pass in optional settings block</span>
+  <span class="kd">var</span> <span class="nx">rellax</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rellax</span><span class="p">(</span><span class="dl">'</span><span class="s1">.rellax</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">speed</span><span class="p">:</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span>
+    <span class="na">center</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="na">wrapper</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+    <span class="na">round</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="na">vertical</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="na">horizontal</span><span class="p">:</span> <span class="kc">false</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+<h2 id="features">Features</h2>
+
+<h3 id="speed">Speed</h3>
+<p>Use the <code class="language-plaintext highlighter-rouge">data-rellax-speed</code> attribute to set the speed of a <code class="language-plaintext highlighter-rouge">.rellax</code> element to something other than the default value (which is <code class="language-plaintext highlighter-rouge">-2</code>). A negative value will make it move slower than regular scrolling, and a positive value will make it move faster. We recommend keeping the speed between <code class="language-plaintext highlighter-rouge">-10</code> and <code class="language-plaintext highlighter-rouge">10</code>.</p>
+
+<h4 id="responsive-speed">Responsive Speed</h4>
+<p>Use responsive speed attributes for breakpoint levels that require a different speed. Defaults to the <code class="language-plaintext highlighter-rouge">data-rellax-speed</code> setting in unspecified breakpoints.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"rellax"</span> <span class="na">data-rellax-speed=</span><span class="s">"7"</span> <span class="na">data-rellax-xs-speed=</span><span class="s">"-5"</span> <span class="na">data-rellax-mobile-speed=</span><span class="s">"3"</span> <span class="na">data-rellax-tablet-speed=</span><span class="s">"-8"</span> <span class="na">data-rellax-desktop-speed=</span><span class="s">"1"</span><span class="nt">&gt;</span>
+  I parallax at all different speeds depending on your screen width.
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>Pass an array of breakpoints. Each breakpoint value represents the resolution for mobile, tablet, desktop respectively. Checkout the responsiveness of the <a href="https://dixonandmoe.com/rellax/"><code class="language-plaintext highlighter-rouge">demo</code></a></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+  <span class="c1">// This is the default setting</span>
+  <span class="kd">var</span> <span class="nx">rellax</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rellax</span><span class="p">(</span><span class="dl">'</span><span class="s1">.rellax</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">breakpoints</span><span class="p">:</span> <span class="p">[</span><span class="mi">576</span><span class="p">,</span> <span class="mi">768</span><span class="p">,</span> <span class="mi">1201</span><span class="p">]</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h3 id="centering">Centering</h3>
+<p>After some fantastic work from <a href="https://github.com/p-realinho">@p-realinho</a>, we just released the ability to center parallax elements in your viewport! We’ll be building a nice demo website, but for now check out the tests folder for several examples of how it works.</p>
+
+<p>There’s two ways to implement centering, either on specific elements or as a global option.</p>
+<ol>
+  <li>
+    <h4 id="element-wise-centering">Element-wise Centering</h4>
+    <ul>
+      <li>Add the <code class="language-plaintext highlighter-rouge">data-rellax-percentage="0.5"</code> to a specific html element
+```html</li>
+    </ul>
+  </li>
+</ol>
+<div class="rellax" data-rellax-percentage="0.5">
+  I’m that default chill speed of "-2" and "centered"
+</div>
+<div class="rellax" data-rellax-speed="7" data-rellax-percentage="0.5">
+  I’m super fast!! And super centered!!
+</div>
+<div class="rellax" data-rellax-speed="-4" data-rellax-percentage="0.5">
+  I’m extra slow and smooth, and hella centered.
+</div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2. #### Global Centering
+- To activate the center feature in your whole html, add the code your `&lt;script&gt;` tag or JS file: 
+```html
+&lt;script&gt;
+  // Center all the things!
+  var rellax = new Rellax('.rellax', {
+    center: true
+  });
+&lt;/script&gt;
+</code></pre></div></div>
+
+<h3 id="z-index">Z-index</h3>
+<p>If you want to sort your elements properly in the Z space, you can use the data-rellax-zindex property</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"rellax"</span><span class="nt">&gt;</span>
+  I’m that default chill speed of "-2" and default z-index of 0
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"rellax"</span> <span class="na">data-rellax-speed=</span><span class="s">"7"</span> <span class="na">data-rellax-zindex=</span><span class="s">"5"</span><span class="nt">&gt;</span>
+  I’m super fast!! And on top of the previous element, I'm z-index 5!!
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="horizontal-parallax">Horizontal Parallax</h3>
+<p>Horizontal parallax is disabled by default. You can enable it by passing <code class="language-plaintext highlighter-rouge">horizontal: true</code> in the settings block.
+This feature is intended for panoramic style websites, where users scroll horizontally instead of vertically.
+Note that this can work together at the same time with the default vertical parallax. If you do not want this, pass <code class="language-plaintext highlighter-rouge">vertical: false</code> in the settings block.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+  <span class="c1">// Adding horizantal parallax scrolling</span>
+  <span class="kd">var</span> <span class="nx">rellax</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rellax</span><span class="p">(</span><span class="dl">'</span><span class="s1">.rellax</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+    <span class="c1">// Activate horizantal scrolling</span>
+    <span class="c1">// Turned off by default</span>
+    <span class="na">horizontal</span><span class="p">:</span> <span class="kc">true</span>
+    <span class="c1">//Deactivate vertical scrolling</span>
+    <span class="na">vertical</span><span class="p">:</span> <span class="kc">false</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h3 id="custom-wrapper">Custom Wrapper</h3>
+<p>By default, the position of parallax elements is determined via the scroll position of the body. Passing in the <code class="language-plaintext highlighter-rouge">wrapper</code> property will tell Rellax to watch that element instead.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+  <span class="c1">// Set wrapper to .custom-element instead of the body</span>
+  <span class="kd">var</span> <span class="nx">rellax</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rellax</span><span class="p">(</span><span class="dl">'</span><span class="s1">.rellax</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">wrapper</span><span class="p">:</span> <span class="dl">'</span><span class="s1">.custom-element</span><span class="dl">'</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h3 id="refresh">Refresh</h3>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+  <span class="c1">// Start Rellax</span>
+  <span class="kd">var</span> <span class="nx">rellax</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rellax</span><span class="p">(</span><span class="dl">'</span><span class="s1">.rellax</span><span class="dl">'</span><span class="p">);</span>
+
+  <span class="c1">// Destroy and create again parallax with previous settings</span>
+  <span class="nx">rellax</span><span class="p">.</span><span class="nx">refresh</span><span class="p">();</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h3 id="destroy">Destroy</h3>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+  <span class="c1">// Start Rellax</span>
+  <span class="kd">var</span> <span class="nx">rellax</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rellax</span><span class="p">(</span><span class="dl">'</span><span class="s1">.rellax</span><span class="dl">'</span><span class="p">);</span>
+
+  <span class="c1">// End Rellax and reset parallax elements to their original positions</span>
+  <span class="nx">rellax</span><span class="p">.</span><span class="nx">destroy</span><span class="p">();</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h3 id="callback">Callback</h3>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script&gt;</span>
+  <span class="c1">// Start Rellax</span>
+  <span class="kd">var</span> <span class="nx">rellax</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rellax</span><span class="p">(</span><span class="dl">'</span><span class="s1">.rellax-blur-card</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">callback</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">positions</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// callback every position change</span>
+      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">positions</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h3 id="target-node">Target node</h3>
+<p>Instead of using a className you can use a node, handy when using React and you want to use <code class="language-plaintext highlighter-rouge">refs</code> instead of <code class="language-plaintext highlighter-rouge">className</code>.</p>
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">ref</span><span class="p">=</span><span class="si">{</span><span class="nx">ref</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="k">this</span><span class="p">.</span><span class="nx">rellaxRef</span> <span class="o">=</span> <span class="nx">ref</span> <span class="p">}</span><span class="si">}</span><span class="p">&gt;</span>
+  I’m that default chill speed of "-2"
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+
+<span class="kd">var</span> <span class="nx">rellax</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Rellax</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">rellaxRef</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="in-the-wild">In the Wild</h2>
+<p>If you’re using Rellax in production, we’d love to list you here! Let us know: moe@dixonandmoe.com</p>
+<ul>
+  <li><a href="https://www.bowmore.com/">Bowmore Scotch</a></li>
+  <li><a href="https://generated.photos/">Generated Photos</a></li>
+  <li><a href="https://designagency.io/">How Much Does a Website Cost</a></li>
+  <li><a href="https://dashdash.io/">Linux Man Pages</a></li>
+  <li><a href="https://lawsofux.com/">Laws of UX</a></li>
+  <li><a href="https://finch.io/">Finch</a></li>
+  <li><a href="https://moeamaya.com/">Product Designer in San Francisco</a></li>
+  <li><a href="https://coolbackgrounds.io/">Cool Backgrounds</a></li>
+  <li><a href="http://ethworks.io/">EthWorks</a></li>
+  <li><a href="https://loremipsumgenerator.com/">Lorem Ipsum Generator</a></li>
+  <li><a href="https://www.deeson.co.uk/">Deeson</a></li>
+  <li><a href="https://servicelist.io/">Unlimited Designs</a></li>
+</ul>
+
+<h2 id="development">Development</h2>
+<p>In the spirit of lightweight javascript, the build processes (thus far) is lightweight also.</p>
+
+<ol>
+  <li>Open demo.html</li>
+  <li>Make code changes and refresh browser</li>
+  <li>Once feature is finished or bug fixed, use <a href="http://jshint.com/">jshint</a> to lint code</li>
+  <li>Fix lint issues then use <a href="https://closure-compiler.appspot.com/home">Google Closure Compiler</a> to minify</li>
+  <li>🍻</li>
+</ol>
+
+<h2 id="changelog">Changelog</h2>
+<ul>
+  <li>1.7.1: Remove animation on destory <a href="https://github.com/dixonandmoe/rellax/pull/132">PR</a></li>
+  <li>1.7.0: Scroll position set relative to the wrapper <a href="https://github.com/dixonandmoe/rellax/pull/125">PR</a></li>
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><div class="container-fluid hide-mobile" style="background-color:var(--grey); padding-left:5vw; padding-right:5vw; min-height:600px; position:relative; z-index: 5">
+  <div class="row justify-content-between" style="padding-top: 100px; margin-left:2vw; margin-right:2vw">
+        <div class="col-3">
+          <h1 id='footer-connect'>Connect <br> with us<span class="big-period" style='color:var(--lorange)'>.</span></h1>
+        </div>
+
+        <div class="col-2 footer-text">
+          <h1 class="mb-5">Menu</h1>
+          <h2>
+              <a href="/work">work</a><br>
+              <a href="/skills">skills</a><br>
+              <a href="/jobs">jobs</a><br>
+              <a href="/about">about</a><br>
+              <a href="/contact">contact</a>
+          </h2>
+        </div>
+        <div class="col-2 footer-text">
+          <h1 class="mb-5">Contact</h1>
+          <h2>
+            <a target="_blank" href="https://mymediacreative.typeform.com/to/KeQjBw">work with us</a> <br>
+            <a target="_blank" href="https://mymediacreative.typeform.com/to/b9U3k7">join our team</a><br>
+            <a target="_blank" href="https://mymediacreative.typeform.com/to/d0WtUy">learn with us</a>
+          </h2>
+        </div>
+        <div class="col-3 footer-text">
+          <h1 style="margin-bottom: 1.7em">Follow us</h1>
+          <a href="https://www.facebook.com/mymediacreativegroup"><img src="../assets/icons/social-fb.png" class="icon"></a>
+          <a href="https://www.instagram.com/mymediacreative/"><img src="../assets/icons/social-ig.png" class="icon"></a>
+          <a href="https://www.linkedin.com/company/my-media-creative/"><img src="../assets/icons/social-li.png" class="icon"></a>
+          <a href="https://www.youtube.com/channel/UCBtnLqiba6ACrA63AHFTMUw"><img src="../assets/icons/social-yt.png" class="icon"></a>
+          <a class="uf" href="#"><h2 class="emails" style="margin-top: 2em">outreach@mymediacreative.org</h2></a>
+          <a class="uf" href="#"><h2 class="emails">mymediacreative.org</h2></a>
+        </div>
+  </div>
+</div>
+
+<div class="container-fluid show-mobile" style="background-color:var(--grey); padding-left:7vw; padding-right:7vw; min-height:600px">
+  <div class="row justify-content-between" style="padding-top: 80px; margin-left:3vw; margin-right:3vw">
+        <div class="col">
+          <h1 id='footer-connect'>Connect <br> with us<span class="big-period" style='color:var(--lorange)'>.</span></h1>
+        </div>
+  </div>
+  <div class="row justify-content-between" style="padding-top: 30px; margin-left:3vw; margin-right:3vw">
+        <div class="col-6 footer-text">
+          <h1 class="mb-5">Menu</h1>
+          <h2>
+              <a href="/work">work</a><br>
+              <a href="/skills">skills</a><br>
+              <a href="/jobs">jobs</a><br>
+              <a href="/about">about</a><br>
+              <a href="/contact">contact</a>
+          </h2>
+        </div>
+        <div class="col-6 footer-text">
+          <h1 class="mb-5">Contact</h1>
+          <h2>
+              <a target="_blank" href="https://mymediacreative.typeform.com/to/KeQjBw">work with us</a> <br>
+              <a target="_blank" href="https://mymediacreative.typeform.com/to/b9U3k7">join our team</a><br>
+              <a target="_blank" href="https://mymediacreative.typeform.com/to/d0WtUy">learn with us</a>
+          </h2>
+        </div>
+  </div>
+  <div class="row" style="padding-top: 30px; margin-left:3vw; margin-right:3vw; padding-bottom: 10em">
+        <div class="col footer-text">
+          <h1 style="margin-bottom: 1.7em">Follow us</h1>
+          <a href="https://www.facebook.com/mymediacreativegroup"><img src="../assets/icons/social-fb.png" class="icon-mobile"></a>
+          <a href="https://www.instagram.com/mymediacreative/"><img src="../assets/icons/social-ig.png" class="icon-mobile"></a>
+          <a href="https://www.linkedin.com/company/my-media-creative/"><img src="../assets/icons/social-li.png" class="icon-mobile"></a>
+          <a href="https://www.youtube.com/channel/UCBtnLqiba6ACrA63AHFTMUw"><img src="../assets/icons/social-yt.png" class="icon-mobile"></a>
+          <a class="uf" href="#"><h2 class="emails" style="margin-top: 2em">outreach@mymediacreative.org</h2></a>
+          <a class="uf" href="#"><h2 class="emails">mymediacreative.org</h2></a>
+        </div>
+  </div>
+</div>
+
+<style>
+  .footer-text > h2 { line-height: 2.5 }
+  .emails { font-size: 1.8em; line-height: 1.5 }
+  img.icon-mobile { display: inline; height: 2.5vw; width: 2.5vw; min-height: 30px; min-width: 30px; margin-right: 4em }
+  img.icon { display: inline; height: 2.5vw; width: 2.5vw; min-height: 30px; min-width: 30px; margin-right: 2em }
+</style>
+</body>
+
+</html>
