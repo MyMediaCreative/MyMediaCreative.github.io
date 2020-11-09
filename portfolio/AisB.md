@@ -1,6 +1,6 @@
 ---
 title: Apathy is Boring
-type-work: video
+type-work: social media
 fname: AisB
 layout: portfolio-sub
 permalink: /work/AisB

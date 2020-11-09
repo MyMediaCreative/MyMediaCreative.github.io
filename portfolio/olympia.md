@@ -13,5 +13,3 @@ permalink: /work/olympia
 {% include port-img.html num="2" %}
 
 {% include port-pgph.html title="The brand" offset="2" offset-mobile="3" color="dorange" content="We worked with Olympia to produce a visual brand which expressed their message and tone." %}
-
-{% include port-img.html num="3" %}

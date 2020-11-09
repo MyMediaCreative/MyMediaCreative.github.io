@@ -20,6 +20,6 @@ On top of working on their written expressions of self, My Media modernized thei
 
 {% include port-pgph.html title="The website" offset="4" offset-mobile="3" color="dblue" content="With a new brand in hand, My Media went on to build NSILC a website. Aimed to make program information more accessible and express the new brand—we spearheaded visual design, copywriting, and UX/UI design for the site." %}
 
-{% include port-img.html num="4" %}
+{% include port-img.html num="4" bottom-mar="20" %}
 
 {% include port-img.html num="5" %}
