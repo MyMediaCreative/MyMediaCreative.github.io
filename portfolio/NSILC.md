@@ -1,6 +1,6 @@
 ---
-title: North Saskatchewan Independent Living Centre
-type-work: web
+title: NSILC
+type-work: brand + web
 fname: NSILC
 layout: portfolio-sub
 permalink: /work/NSILC
@@ -12,9 +12,7 @@ permalink: /work/NSILC
 
 {% include port-img.html num="2" %}
 
-{% include port-pgph.html title="The mission and brand" offset="3" offset-mobile="3" color="dorange" content="NSILC brought My Media on to help them refine their mission/vision statement, and land on a writing style that expresses their personality online. We started our work by holding in-depth discovery sessions designed to facilitate reflection on the essence of the organization. We went on to write a mission/vision statement and a tone/voice document—which can guide NSILC in how they express themselves digitally.
-
-On top of working on their written expressions of self, My Media modernized their existing logo and compiled several key visual brand guidelines into a brand book (alongside the content writing guidelines)." %}
+{% include port-pgph.html title="Brand strategy" offset="3" offset-mobile="3" color="dorange" content="NSILC brought My Media on to help them reposition their brand verbally and visually. We held in-depth discovery sessions, and reflected a lot on the essence of the organization. We wrote a mission/vision statement, defined a revitalized tone and voice, and created a new visual brand." %}
 
 {% include port-img.html num="3" %}
 

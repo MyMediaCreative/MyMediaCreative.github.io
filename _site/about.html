@@ -62,7 +62,7 @@
         <div id="menubar" style="display: inline">
           <div id="work"><a class="menubar w" href="/work">work</a></div>
           <div id="skills"><a class="menubar w" href="/skills">skills</a></div>
-          <div id="jobs"><a class="menubar w" href="/jobs">jobs</a></div>
+          <!-- <div id="jobs"><a class="menubar w" href="/jobs">jobs</a></div> -->
           <div id="about"><a class="menubar w" href="/about">about</a></div>
           <div id="contact"><a class="menubar w" href="/contact">contact</a></div>
         </div>
@@ -324,7 +324,7 @@ document.getElementById("about").innerHTML = "<a id='menubold' class='w' href='/
 
 
   <div class="proj-prev exec creat all">
-  <div class="row " style="padding-top: 5em; padding-bottom: 5em">
+  <div class="row hide" style="padding-top: 5em; padding-bottom: 5em">
     <div class="col-8 col-lg-9 align-self-center">
       <h1 class="title">Ella Roy, <span class="hide-xl"><br></span><span class="position avoidwrap">Art Director</span></h1>
       <h3 class="desc">Ella is our Art and Brand Director. She’s here to oversee My Media’s brand, and works directly with clients to build visual identities and brand strategies. She loves all kinds of design, discovering new places in Montreal and binge-watching The Office.</h3>
@@ -334,7 +334,7 @@ document.getElementById("about").innerHTML = "<a id='menubold' class='w' href='/
     </div>
   </div>
 
-  <div class="row hide" style="padding-top: 5em; padding-bottom: 5em">
+  <div class="row " style="padding-top: 5em; padding-bottom: 5em">
     <div class="col-4 col-lg-3">
       <img src="../assets/img/portraits/Ella Roy.jpg" style="max-height:100%; max-width: 100%">
     </div>
@@ -360,7 +360,7 @@ document.getElementById("about").innerHTML = "<a id='menubold' class='w' href='/
 
 
   <div class="proj-prev exec creat all">
-  <div class="row hide" style="padding-top: 5em; padding-bottom: 5em">
+  <div class="row " style="padding-top: 5em; padding-bottom: 5em">
     <div class="col-8 col-lg-9 align-self-center">
       <h1 class="title">Sofia Mikton, <span class="hide-xl"><br></span><span class="position avoidwrap">Campaigns Director</span></h1>
       <h3 class="desc">Sofia is the Campaigns Director at My Media. She works with clients and creatives to facilitate and coordinate campaigns. Sofia enjoys reading, baking and playing words with friends.</h3>
@@ -370,7 +370,7 @@ document.getElementById("about").innerHTML = "<a id='menubold' class='w' href='/
     </div>
   </div>
 
-  <div class="row " style="padding-top: 5em; padding-bottom: 5em">
+  <div class="row hide" style="padding-top: 5em; padding-bottom: 5em">
     <div class="col-4 col-lg-3">
       <img src="../assets/img/portraits/Sofia Mikton.jpg" style="max-height:100%; max-width: 100%">
     </div>
@@ -396,7 +396,7 @@ document.getElementById("about").innerHTML = "<a id='menubold' class='w' href='/
 
 
   <div class="proj-prev exec creat all">
-  <div class="row " style="padding-top: 5em; padding-bottom: 5em">
+  <div class="row hide" style="padding-top: 5em; padding-bottom: 5em">
     <div class="col-8 col-lg-9 align-self-center">
       <h1 class="title">Max Brauch, <span class="hide-xl"><br></span><span class="position avoidwrap">Director of Video</span></h1>
       <h3 class="desc">As the Director of Video Production at My Media, Max helps to shoot, edit, direct, and oversee all of the organization’s video content. He is a student filmmaker, and believes passionately in the power of activism through storytelling.</h3>
@@ -406,7 +406,7 @@ document.getElementById("about").innerHTML = "<a id='menubold' class='w' href='/
     </div>
   </div>
 
-  <div class="row hide" style="padding-top: 5em; padding-bottom: 5em">
+  <div class="row " style="padding-top: 5em; padding-bottom: 5em">
     <div class="col-4 col-lg-3">
       <img src="../assets/img/portraits/Max Brauch.jpg" style="max-height:100%; max-width: 100%">
     </div>
@@ -432,7 +432,7 @@ document.getElementById("about").innerHTML = "<a id='menubold' class='w' href='/
 
 
   <div class="proj-prev exec creat all">
-  <div class="row hide" style="padding-top: 5em; padding-bottom: 5em">
+  <div class="row " style="padding-top: 5em; padding-bottom: 5em">
     <div class="col-8 col-lg-9 align-self-center">
       <h1 class="title">Liam Chung, <span class="hide-xl"><br></span><span class="position avoidwrap">Director of Tech and Web</span></h1>
       <h3 class="desc">Liam is the Director of Technology and Web at My Media, designing and developing the organization's website, and lending expertise in the technical aspects of modern activism. He loves hip hop, Lord of the Rings, and math.</h3>
@@ -442,13 +442,49 @@ document.getElementById("about").innerHTML = "<a id='menubold' class='w' href='/
     </div>
   </div>
 
-  <div class="row " style="padding-top: 5em; padding-bottom: 5em">
+  <div class="row hide" style="padding-top: 5em; padding-bottom: 5em">
     <div class="col-4 col-lg-3">
       <img src="../assets/img/portraits/Liam Chung.jpg" style="max-height:100%; max-width: 100%">
     </div>
     <div class="col-8 col-lg-9 align-self-center">
       <h1 class="title">Liam Chung, <span class="hide-xl"><br></span><span class="position avoidwrap">Director of Tech and Web</span></h1>
       <h3 class="desc">Liam is the Director of Technology and Web at My Media, designing and developing the organization's website, and lending expertise in the technical aspects of modern activism. He loves hip hop, Lord of the Rings, and math.</h3>
+    </div>
+  </div>
+</div>
+
+
+
+<style>
+  .desc { font-size: 2.8em }
+  .title { font-size: 3.4em }
+  .position { font-family: Montserrat-R; font-size: inherit }
+
+  .hide { display: none }
+
+  @media only screen and (max-width: 1199px) { .hide-xl { display: inline } }
+  @media only screen and (min-width: 1200px) { .hide-xl { display: none } }
+</style>
+
+
+  <div class="proj-prev exec creat all">
+  <div class="row hide" style="padding-top: 5em; padding-bottom: 5em">
+    <div class="col-8 col-lg-9 align-self-center">
+      <h1 class="title">Ariane Te, <span class="hide-xl"><br></span><span class="position avoidwrap">Director of Product Design</span></h1>
+      <h3 class="desc">Ariane is the Director of Product Design at My Media—she works with clients to create effective and meaningful digital experiences. She loves drawing, moshing, and (sometimes) weight training.</h3>
+    </div>
+    <div class="col-4 col-lg-3">
+      <img src="../assets/img/portraits/Ariane Te.jpg" style="max-height:100%; max-width: 100%">
+    </div>
+  </div>
+
+  <div class="row " style="padding-top: 5em; padding-bottom: 5em">
+    <div class="col-4 col-lg-3">
+      <img src="../assets/img/portraits/Ariane Te.jpg" style="max-height:100%; max-width: 100%">
+    </div>
+    <div class="col-8 col-lg-9 align-self-center">
+      <h1 class="title">Ariane Te, <span class="hide-xl"><br></span><span class="position avoidwrap">Director of Product Design</span></h1>
+      <h3 class="desc">Ariane is the Director of Product Design at My Media—she works with clients to create effective and meaningful digital experiences. She loves drawing, moshing, and (sometimes) weight training.</h3>
     </div>
   </div>
 </div>
@@ -857,8 +893,8 @@ document.getElementById("about").innerHTML = "<a id='menubold' class='w' href='/
           <a href="https://www.instagram.com/mymediacreative/"><img src="../assets/icons/social-ig.png" class="icon"></a>
           <a href="https://www.linkedin.com/company/my-media-creative/"><img src="../assets/icons/social-li.png" class="icon"></a>
           <a href="https://www.youtube.com/channel/UCBtnLqiba6ACrA63AHFTMUw"><img src="../assets/icons/social-yt.png" class="icon"></a>
-          <a class="uf" href="#"><h2 class="emails" style="margin-top: 2em">outreach@mymediacreative.org</h2></a>
-          <a class="uf" href="#"><h2 class="emails">mymediacreative.org</h2></a>
+          <a class="uf" href="mailto:tristan@mymediacreative.org"><h2 class="emails" style="margin-top: 2em">tristan@mymediacreative.org</h2></a>
+          <a class="uf" href="mymediacreative.org"><h2 class="emails">mymediacreative.org</h2></a>
         </div>
   </div>
 </div>
@@ -896,8 +932,8 @@ document.getElementById("about").innerHTML = "<a id='menubold' class='w' href='/
           <a href="https://www.instagram.com/mymediacreative/"><img src="../assets/icons/social-ig.png" class="icon-mobile"></a>
           <a href="https://www.linkedin.com/company/my-media-creative/"><img src="../assets/icons/social-li.png" class="icon-mobile"></a>
           <a href="https://www.youtube.com/channel/UCBtnLqiba6ACrA63AHFTMUw"><img src="../assets/icons/social-yt.png" class="icon-mobile"></a>
-          <a class="uf" href="#"><h2 class="emails" style="margin-top: 2em">outreach@mymediacreative.org</h2></a>
-          <a class="uf" href="#"><h2 class="emails">mymediacreative.org</h2></a>
+          <a class="uf" href="mailto:tristan@mymediacreative.org"><h2 class="emails" style="margin-top: 2em">tristan@mymediacreative.org</h2></a>
+          <a class="uf" href="mymediacreative.org"><h2 class="emails">mymediacreative.org</h2></a>
         </div>
   </div>
 </div>

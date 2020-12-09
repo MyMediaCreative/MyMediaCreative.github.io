@@ -63,7 +63,7 @@
         <div id="menubar" style="display: inline">
           <div id="work"><a class="menubar" href="/work">work</a></div>
           <div id="skills"><a class="menubar" href="/skills">skills</a></div>
-          <div id="jobs"><a class="menubar" href="/jobs">jobs</a></div>
+          <!-- <div id="jobs"><a class="menubar" href="/jobs">jobs</a></div> -->
           <div id="about"><a class="menubar" href="/about">about</a></div>
           <div id="contact"><a class="menubar" href="/contact">contact</a></div>
         </div>
@@ -310,15 +310,153 @@ document.getElementById("work").innerHTML = "<a id='menubold' href='/work'>work<
       </div></div>
       </div>
       <div class="row py-5 justify-content-between proj-cont">
-        <div class="col-md-6 brand socmed web all proj-prev">
+        <div class="col-md-6 socmed all proj-prev">
   <div class="contain">
-    <a href="/work/YIC"><img src="../assets/img/YIC/thumbnail.png" style="display: block" class="image"></a>
+    <a href="/work/AisB"><img src="../assets/img/AisB/thumbnail.png" style="display: block" class="image"></a>
     <div class="mid">
-        <img src="../assets/img/YIC/logo.png" style="display: block; opacity: 1" class="image">
+        <img src="../assets/img/AisB/logo.png" style="display: block; opacity: 1" class="image">
     </div>
   </div>
-  <a href="/work/YIC"><h1 class="pl-1 pt-3 thumbnail-title">Youth Impact Challenge</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">website + brand + social media</h3>
+  <a href="/work/AisB"><h1 class="pl-1 pt-3 thumbnail-title">Apathy is Boring</h1></a>
+  <h3 class="thumbnail-title" style="padding-bottom: 3em">social media</h3>
+</div>
+
+<style>
+  h1.thumbnail-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 0
+  }
+  h3.thumbnail-title { text-align: center }
+
+  /* This is ugly but it's what gives the hover logo effect */
+
+  .contain { position: relative }
+  .contain:hover .image { opacity: 0.1 }
+  .contain:hover .mid { opacity: 1 }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .8s ease-out;
+    transition-delay: .1s;
+    backface-visibility: hidden;
+  }
+  .mid {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+
+
+        <div class="col-md-6 vid all proj-prev">
+  <div class="contain">
+    <a href="/work/upstart"><img src="../assets/img/upstart/thumbnail.png" style="display: block" class="image"></a>
+    <div class="mid">
+        <img src="../assets/img/upstart/logo.png" style="display: block; opacity: 1" class="image">
+    </div>
+  </div>
+  <a href="/work/upstart"><h1 class="pl-1 pt-3 thumbnail-title">UpstartED</h1></a>
+  <h3 class="thumbnail-title" style="padding-bottom: 3em">video</h3>
+</div>
+
+<style>
+  h1.thumbnail-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 0
+  }
+  h3.thumbnail-title { text-align: center }
+
+  /* This is ugly but it's what gives the hover logo effect */
+
+  .contain { position: relative }
+  .contain:hover .image { opacity: 0.1 }
+  .contain:hover .mid { opacity: 1 }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .8s ease-out;
+    transition-delay: .1s;
+    backface-visibility: hidden;
+  }
+  .mid {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+
+
+        <div class="col-md-6 vid socmed all proj-prev">
+  <div class="contain">
+    <a href="/work/SOMM"><img src="../assets/img/SOMM/thumbnail.png" style="display: block" class="image"></a>
+    <div class="mid">
+        <img src="../assets/img/SOMM/logo.png" style="display: block; opacity: 1" class="image">
+    </div>
+  </div>
+  <a href="/work/SOMM"><h1 class="pl-1 pt-3 thumbnail-title">The School of Music Montreal</h1></a>
+  <h3 class="thumbnail-title" style="padding-bottom: 3em">video + social media</h3>
+</div>
+
+<style>
+  h1.thumbnail-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 0
+  }
+  h3.thumbnail-title { text-align: center }
+
+  /* This is ugly but it's what gives the hover logo effect */
+
+  .contain { position: relative }
+  .contain:hover .image { opacity: 0.1 }
+  .contain:hover .mid { opacity: 1 }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .8s ease-out;
+    transition-delay: .1s;
+    backface-visibility: hidden;
+  }
+  .mid {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+
+
+        <div class="col-md-6 brand all proj-prev">
+  <div class="contain">
+    <a href="/work/circulus"><img src="../assets/img/circulus/thumbnail.png" style="display: block" class="image"></a>
+    <div class="mid">
+        <img src="../assets/img/circulus/logo.png" style="display: block; opacity: 1" class="image">
+    </div>
+  </div>
+  <a href="/work/circulus"><h1 class="pl-1 pt-3 thumbnail-title">Circulus AgTech</h1></a>
+  <h3 class="thumbnail-title" style="padding-bottom: 3em">brand</h3>
 </div>
 
 <style>
@@ -365,6 +503,144 @@ document.getElementById("work").innerHTML = "<a id='menubold' href='/work'>work<
   </div>
   <a href="/work/divest"><h1 class="pl-1 pt-3 thumbnail-title">Divest McGill</h1></a>
   <h3 class="thumbnail-title" style="padding-bottom: 3em">video + website</h3>
+</div>
+
+<style>
+  h1.thumbnail-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 0
+  }
+  h3.thumbnail-title { text-align: center }
+
+  /* This is ugly but it's what gives the hover logo effect */
+
+  .contain { position: relative }
+  .contain:hover .image { opacity: 0.1 }
+  .contain:hover .mid { opacity: 1 }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .8s ease-out;
+    transition-delay: .1s;
+    backface-visibility: hidden;
+  }
+  .mid {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+
+
+        <div class="col-md-6 web all proj-prev">
+  <div class="contain">
+    <a href="/work/MPCC"><img src="../assets/img/MPCC/thumbnail.png" style="display: block" class="image"></a>
+    <div class="mid">
+        <img src="../assets/img/MPCC/logo.png" style="display: block; opacity: 1" class="image">
+    </div>
+  </div>
+  <a href="/work/MPCC"><h1 class="pl-1 pt-3 thumbnail-title">Milton Parc Citizen's Committee</h1></a>
+  <h3 class="thumbnail-title" style="padding-bottom: 3em">web</h3>
+</div>
+
+<style>
+  h1.thumbnail-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 0
+  }
+  h3.thumbnail-title { text-align: center }
+
+  /* This is ugly but it's what gives the hover logo effect */
+
+  .contain { position: relative }
+  .contain:hover .image { opacity: 0.1 }
+  .contain:hover .mid { opacity: 1 }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .8s ease-out;
+    transition-delay: .1s;
+    backface-visibility: hidden;
+  }
+  .mid {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+
+
+        <div class="col-md-6 brand socmed web all proj-prev">
+  <div class="contain">
+    <a href="/work/YIC"><img src="../assets/img/YIC/thumbnail.png" style="display: block" class="image"></a>
+    <div class="mid">
+        <img src="../assets/img/YIC/logo.png" style="display: block; opacity: 1" class="image">
+    </div>
+  </div>
+  <a href="/work/YIC"><h1 class="pl-1 pt-3 thumbnail-title">Youth Impact Challenge</h1></a>
+  <h3 class="thumbnail-title" style="padding-bottom: 3em">website + brand + social media</h3>
+</div>
+
+<style>
+  h1.thumbnail-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 0
+  }
+  h3.thumbnail-title { text-align: center }
+
+  /* This is ugly but it's what gives the hover logo effect */
+
+  .contain { position: relative }
+  .contain:hover .image { opacity: 0.1 }
+  .contain:hover .mid { opacity: 1 }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .8s ease-out;
+    transition-delay: .1s;
+    backface-visibility: hidden;
+  }
+  .mid {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+
+
+        <div class="col-md-6 brand all proj-prev">
+  <div class="contain">
+    <a href="/work/indigirecruit"><img src="../assets/img/indigirecruit/thumbnail.png" style="display: block" class="image"></a>
+    <div class="mid">
+        <img src="../assets/img/indigirecruit/logo.png" style="display: block; opacity: 1" class="image">
+    </div>
+  </div>
+  <a href="/work/indigirecruit"><h1 class="pl-1 pt-3 thumbnail-title">IndigIrecruit</h1></a>
+  <h3 class="thumbnail-title" style="padding-bottom: 3em">brand</h3>
 </div>
 
 <style>
@@ -455,7 +731,7 @@ document.getElementById("work").innerHTML = "<a id='menubold' href='/work'>work<
         <img src="../assets/img/NSILC/logo.png" style="display: block; opacity: 1" class="image">
     </div>
   </div>
-  <a href="/work/NSILC"><h1 class="pl-1 pt-3 thumbnail-title">North Saskatchewan Independent Living Centre</h1></a>
+  <a href="/work/NSILC"><h1 class="pl-1 pt-3 thumbnail-title">NSILC</h1></a>
   <h3 class="thumbnail-title" style="padding-bottom: 3em">brand + web</h3>
 </div>
 
@@ -494,15 +770,15 @@ document.getElementById("work").innerHTML = "<a id='menubold' href='/work'>work<
 </style>
 
 
-        <div class="col-md-6 socmed all proj-prev">
+        <div class="col-md-6 vid web brand socmed all proj-prev">
   <div class="contain">
-    <a href="/work/AisB"><img src="../assets/img/AisB/thumbnail.png" style="display: block" class="image"></a>
+    <a href="/work/CBYC"><img src="../assets/img/CBYC/thumbnail.png" style="display: block" class="image"></a>
     <div class="mid">
-        <img src="../assets/img/AisB/logo.png" style="display: block; opacity: 1" class="image">
+        <img src="../assets/img/CBYC/logo.png" style="display: block; opacity: 1" class="image">
     </div>
   </div>
-  <a href="/work/AisB"><h1 class="pl-1 pt-3 thumbnail-title">Apathy is Boring</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">social media</h3>
+  <a href="/work/CBYC"><h1 class="pl-1 pt-3 thumbnail-title">Canadian Business Youth Council for Sustainable Development</h1></a>
+  <h3 class="thumbnail-title" style="padding-bottom: 3em">brand + social media + web + video</h3>
 </div>
 
 <style>
@@ -540,7 +816,51 @@ document.getElementById("work").innerHTML = "<a id='menubold' href='/work'>work<
 </style>
 
 
-      
+        <div class="col-md-6 brand all proj-prev">
+  <div class="contain">
+    <a href="/work/thrive"><img src="../assets/img/thrive/thumbnail.png" style="display: block" class="image"></a>
+    <div class="mid">
+        <img src="../assets/img/thrive/logo.png" style="display: block; opacity: 1" class="image">
+    </div>
+  </div>
+  <a href="/work/thrive"><h1 class="pl-1 pt-3 thumbnail-title">Thrive Collective</h1></a>
+  <h3 class="thumbnail-title" style="padding-bottom: 3em">brand</h3>
+</div>
+
+<style>
+  h1.thumbnail-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 0
+  }
+  h3.thumbnail-title { text-align: center }
+
+  /* This is ugly but it's what gives the hover logo effect */
+
+  .contain { position: relative }
+  .contain:hover .image { opacity: 0.1 }
+  .contain:hover .mid { opacity: 1 }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .8s ease-out;
+    transition-delay: .1s;
+    backface-visibility: hidden;
+  }
+  .mid {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+
 
         <div class="col-md-6 brand socmed all proj-prev">
   <div class="contain">
@@ -588,152 +908,14 @@ document.getElementById("work").innerHTML = "<a id='menubold' href='/work'>work<
 </style>
 
 
-        <div class="col-md-6 vid socmed all proj-prev">
-  <div class="contain">
-    <a href="/work/SOMM"><img src="../assets/img/SOMM/thumbnail.png" style="display: block" class="image"></a>
-    <div class="mid">
-        <img src="../assets/img/SOMM/logo.png" style="display: block; opacity: 1" class="image">
-    </div>
-  </div>
-  <a href="/work/SOMM"><h1 class="pl-1 pt-3 thumbnail-title">The School of Music Montreal</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">video + social media</h3>
-</div>
-
-<style>
-  h1.thumbnail-title {
-    text-align: center;
-    color: black;
-    margin-bottom: 0
-  }
-  h3.thumbnail-title { text-align: center }
-
-  /* This is ugly but it's what gives the hover logo effect */
-
-  .contain { position: relative }
-  .contain:hover .image { opacity: 0.1 }
-  .contain:hover .mid { opacity: 1 }
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .8s ease-out;
-    transition-delay: .1s;
-    backface-visibility: hidden;
-  }
-  .mid {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-</style>
-
-
-        <div class="col-md-6 brand all proj-prev">
-  <div class="contain">
-    <a href="/work/indigirecruit"><img src="../assets/img/indigirecruit/thumbnail.png" style="display: block" class="image"></a>
-    <div class="mid">
-        <img src="../assets/img/indigirecruit/logo.png" style="display: block; opacity: 1" class="image">
-    </div>
-  </div>
-  <a href="/work/indigirecruit"><h1 class="pl-1 pt-3 thumbnail-title">IndigIrecruit</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">brand</h3>
-</div>
-
-<style>
-  h1.thumbnail-title {
-    text-align: center;
-    color: black;
-    margin-bottom: 0
-  }
-  h3.thumbnail-title { text-align: center }
-
-  /* This is ugly but it's what gives the hover logo effect */
-
-  .contain { position: relative }
-  .contain:hover .image { opacity: 0.1 }
-  .contain:hover .mid { opacity: 1 }
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .8s ease-out;
-    transition-delay: .1s;
-    backface-visibility: hidden;
-  }
-  .mid {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-</style>
-
-
-        <div class="col-md-6 web all proj-prev">
-  <div class="contain">
-    <a href="/work/MPCC"><img src="../assets/img/MPCC/thumbnail.png" style="display: block" class="image"></a>
-    <div class="mid">
-        <img src="../assets/img/MPCC/logo.png" style="display: block; opacity: 1" class="image">
-    </div>
-  </div>
-  <a href="/work/MPCC"><h1 class="pl-1 pt-3 thumbnail-title">Milton Parc Citizen's Committee</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">web</h3>
-</div>
-
-<style>
-  h1.thumbnail-title {
-    text-align: center;
-    color: black;
-    margin-bottom: 0
-  }
-  h3.thumbnail-title { text-align: center }
-
-  /* This is ugly but it's what gives the hover logo effect */
-
-  .contain { position: relative }
-  .contain:hover .image { opacity: 0.1 }
-  .contain:hover .mid { opacity: 1 }
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .8s ease-out;
-    transition-delay: .1s;
-    backface-visibility: hidden;
-  }
-  .mid {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-</style>
-
-
         <div class="col-md-6 vid all proj-prev">
   <div class="contain">
-    <a href="/work/TCA"><img src="../assets/img/TCA/thumbnail.png" style="display: block" class="image"></a>
+    <a href="/work/kitchen-24"><img src="../assets/img/kitchen-24/thumbnail.png" style="display: block" class="image"></a>
     <div class="mid">
-        <img src="../assets/img/TCA/logo.png" style="display: block; opacity: 1" class="image">
+        <img src="../assets/img/kitchen-24/logo.png" style="display: block; opacity: 1" class="image">
     </div>
   </div>
-  <a href="/work/TCA"><h1 class="pl-1 pt-3 thumbnail-title">Third Culture Apparel</h1></a>
+  <a href="/work/kitchen-24"><h1 class="pl-1 pt-3 thumbnail-title">Kitchen 24</h1></a>
   <h3 class="thumbnail-title" style="padding-bottom: 3em">video</h3>
 </div>
 
@@ -820,98 +1002,6 @@ document.getElementById("work").innerHTML = "<a id='menubold' href='/work'>work<
 
         <div class="col-md-6 vid all proj-prev">
   <div class="contain">
-    <a href="/work/kitchen-24"><img src="../assets/img/kitchen-24/thumbnail.png" style="display: block" class="image"></a>
-    <div class="mid">
-        <img src="../assets/img/kitchen-24/logo.png" style="display: block; opacity: 1" class="image">
-    </div>
-  </div>
-  <a href="/work/kitchen-24"><h1 class="pl-1 pt-3 thumbnail-title">Kitchen 24</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">video</h3>
-</div>
-
-<style>
-  h1.thumbnail-title {
-    text-align: center;
-    color: black;
-    margin-bottom: 0
-  }
-  h3.thumbnail-title { text-align: center }
-
-  /* This is ugly but it's what gives the hover logo effect */
-
-  .contain { position: relative }
-  .contain:hover .image { opacity: 0.1 }
-  .contain:hover .mid { opacity: 1 }
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .8s ease-out;
-    transition-delay: .1s;
-    backface-visibility: hidden;
-  }
-  .mid {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-</style>
-
-
-        <div class="col-md-6 brand all proj-prev">
-  <div class="contain">
-    <a href="/work/thrive"><img src="../assets/img/thrive/thumbnail.png" style="display: block" class="image"></a>
-    <div class="mid">
-        <img src="../assets/img/thrive/logo.png" style="display: block; opacity: 1" class="image">
-    </div>
-  </div>
-  <a href="/work/thrive"><h1 class="pl-1 pt-3 thumbnail-title">Thrive Collective</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">brand</h3>
-</div>
-
-<style>
-  h1.thumbnail-title {
-    text-align: center;
-    color: black;
-    margin-bottom: 0
-  }
-  h3.thumbnail-title { text-align: center }
-
-  /* This is ugly but it's what gives the hover logo effect */
-
-  .contain { position: relative }
-  .contain:hover .image { opacity: 0.1 }
-  .contain:hover .mid { opacity: 1 }
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .8s ease-out;
-    transition-delay: .1s;
-    backface-visibility: hidden;
-  }
-  .mid {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-</style>
-
-
-        <div class="col-md-6 vid all proj-prev">
-  <div class="contain">
     <a href="/work/EDRSC"><img src="../assets/img/EDRSC/thumbnail.png" style="display: block" class="image"></a>
     <div class="mid">
         <img src="../assets/img/EDRSC/logo.png" style="display: block; opacity: 1" class="image">
@@ -954,243 +1044,6 @@ document.getElementById("work").innerHTML = "<a id='menubold' href='/work'>work<
     text-align: center;
   }
 </style>
-
-
-
-
-        <div class="col-md-6 vid web all proj-prev">
-  <div class="contain">
-    <a href="/work/CBYC"><img src="../assets/img/CBYC/thumbnail.png" style="display: block" class="image"></a>
-    <div class="mid">
-        <img src="../assets/img/CBYC/logo.png" style="display: block; opacity: 1" class="image">
-    </div>
-  </div>
-  <a href="/work/CBYC"><h1 class="pl-1 pt-3 thumbnail-title">Canadian Business Youth Council</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">video + website</h3>
-</div>
-
-<style>
-  h1.thumbnail-title {
-    text-align: center;
-    color: black;
-    margin-bottom: 0
-  }
-  h3.thumbnail-title { text-align: center }
-
-  /* This is ugly but it's what gives the hover logo effect */
-
-  .contain { position: relative }
-  .contain:hover .image { opacity: 0.1 }
-  .contain:hover .mid { opacity: 1 }
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .8s ease-out;
-    transition-delay: .1s;
-    backface-visibility: hidden;
-  }
-  .mid {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-</style>
-
-
-        <div class="col-md-6 brand all proj-prev">
-  <div class="contain">
-    <a href="/work/welcomia"><img src="../assets/img/welcomia/thumbnail.png" style="display: block" class="image"></a>
-    <div class="mid">
-        <img src="../assets/img/welcomia/logo.png" style="display: block; opacity: 1" class="image">
-    </div>
-  </div>
-  <a href="/work/welcomia"><h1 class="pl-1 pt-3 thumbnail-title">Welcomia</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">brand</h3>
-</div>
-
-<style>
-  h1.thumbnail-title {
-    text-align: center;
-    color: black;
-    margin-bottom: 0
-  }
-  h3.thumbnail-title { text-align: center }
-
-  /* This is ugly but it's what gives the hover logo effect */
-
-  .contain { position: relative }
-  .contain:hover .image { opacity: 0.1 }
-  .contain:hover .mid { opacity: 1 }
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .8s ease-out;
-    transition-delay: .1s;
-    backface-visibility: hidden;
-  }
-  .mid {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-</style>
-
-
-        <div class="col-md-6 vid all proj-prev">
-  <div class="contain">
-    <a href="/work/drivesafe"><img src="../assets/img/drivesafe/thumbnail.png" style="display: block" class="image"></a>
-    <div class="mid">
-        <img src="../assets/img/drivesafe/logo.png" style="display: block; opacity: 1" class="image">
-    </div>
-  </div>
-  <a href="/work/drivesafe"><h1 class="pl-1 pt-3 thumbnail-title">DriveSafe</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">video</h3>
-</div>
-
-<style>
-  h1.thumbnail-title {
-    text-align: center;
-    color: black;
-    margin-bottom: 0
-  }
-  h3.thumbnail-title { text-align: center }
-
-  /* This is ugly but it's what gives the hover logo effect */
-
-  .contain { position: relative }
-  .contain:hover .image { opacity: 0.1 }
-  .contain:hover .mid { opacity: 1 }
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .8s ease-out;
-    transition-delay: .1s;
-    backface-visibility: hidden;
-  }
-  .mid {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-</style>
-
-
-      
-
-        <div class="col-md-6 vid all proj-prev">
-  <div class="contain">
-    <a href="/work/MASS"><img src="../assets/img/MASS/thumbnail.png" style="display: block" class="image"></a>
-    <div class="mid">
-        <img src="../assets/img/MASS/logo.png" style="display: block; opacity: 1" class="image">
-    </div>
-  </div>
-  <a href="/work/MASS"><h1 class="pl-1 pt-3 thumbnail-title">McGill African Students Society</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">video</h3>
-</div>
-
-<style>
-  h1.thumbnail-title {
-    text-align: center;
-    color: black;
-    margin-bottom: 0
-  }
-  h3.thumbnail-title { text-align: center }
-
-  /* This is ugly but it's what gives the hover logo effect */
-
-  .contain { position: relative }
-  .contain:hover .image { opacity: 0.1 }
-  .contain:hover .mid { opacity: 1 }
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .8s ease-out;
-    transition-delay: .1s;
-    backface-visibility: hidden;
-  }
-  .mid {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-</style>
-
-
-        <div class="col-md-6 vid all proj-prev">
-  <div class="contain">
-    <a href="/work/YOP"><img src="../assets/img/YOP/thumbnail.png" style="display: block" class="image"></a>
-    <div class="mid">
-        <img src="../assets/img/YOP/logo.png" style="display: block; opacity: 1" class="image">
-    </div>
-  </div>
-  <a href="/work/YOP"><h1 class="pl-1 pt-3 thumbnail-title">Youth Outreach Program</h1></a>
-  <h3 class="thumbnail-title" style="padding-bottom: 3em">video</h3>
-</div>
-
-<style>
-  h1.thumbnail-title {
-    text-align: center;
-    color: black;
-    margin-bottom: 0
-  }
-  h3.thumbnail-title { text-align: center }
-
-  /* This is ugly but it's what gives the hover logo effect */
-
-  .contain { position: relative }
-  .contain:hover .image { opacity: 0.1 }
-  .contain:hover .mid { opacity: 1 }
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .8s ease-out;
-    transition-delay: .1s;
-    backface-visibility: hidden;
-  }
-  .mid {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-</style>
-
-
-
 
 
       </div>
@@ -1263,8 +1116,8 @@ document.getElementById("work").innerHTML = "<a id='menubold' href='/work'>work<
           <a href="https://www.instagram.com/mymediacreative/"><img src="../assets/icons/social-ig.png" class="icon"></a>
           <a href="https://www.linkedin.com/company/my-media-creative/"><img src="../assets/icons/social-li.png" class="icon"></a>
           <a href="https://www.youtube.com/channel/UCBtnLqiba6ACrA63AHFTMUw"><img src="../assets/icons/social-yt.png" class="icon"></a>
-          <a class="uf" href="#"><h2 class="emails" style="margin-top: 2em">outreach@mymediacreative.org</h2></a>
-          <a class="uf" href="#"><h2 class="emails">mymediacreative.org</h2></a>
+          <a class="uf" href="mailto:tristan@mymediacreative.org"><h2 class="emails" style="margin-top: 2em">tristan@mymediacreative.org</h2></a>
+          <a class="uf" href="mymediacreative.org"><h2 class="emails">mymediacreative.org</h2></a>
         </div>
   </div>
 </div>
@@ -1302,8 +1155,8 @@ document.getElementById("work").innerHTML = "<a id='menubold' href='/work'>work<
           <a href="https://www.instagram.com/mymediacreative/"><img src="../assets/icons/social-ig.png" class="icon-mobile"></a>
           <a href="https://www.linkedin.com/company/my-media-creative/"><img src="../assets/icons/social-li.png" class="icon-mobile"></a>
           <a href="https://www.youtube.com/channel/UCBtnLqiba6ACrA63AHFTMUw"><img src="../assets/icons/social-yt.png" class="icon-mobile"></a>
-          <a class="uf" href="#"><h2 class="emails" style="margin-top: 2em">outreach@mymediacreative.org</h2></a>
-          <a class="uf" href="#"><h2 class="emails">mymediacreative.org</h2></a>
+          <a class="uf" href="mailto:tristan@mymediacreative.org"><h2 class="emails" style="margin-top: 2em">tristan@mymediacreative.org</h2></a>
+          <a class="uf" href="mymediacreative.org"><h2 class="emails">mymediacreative.org</h2></a>
         </div>
   </div>
 </div>
