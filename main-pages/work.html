@@ -41,77 +41,17 @@ permalink: /work
               <button class="filter" onclick="filterSelection('socmed')">social media</button>
       </div></div>
       </div>
-      <div class="row py-5 justify-content-between proj-cont">
-        {% include project-preview.html type="socmed"
-                                        fullname="Apathy is Boring"
-                                        shortname="AisB" subtitle="social media" %}
+      <div id="portList" class="row py-5 justify-content-between proj-cont">
 
-        {% include project-preview.html type="vid"
-                                        fullname="UpstartED"
-                                        shortname="upstart" subtitle="video" %}
-
-        {% include project-preview.html type="vid socmed"
-                                        fullname="The School of Music Montreal"
-                                        shortname="SOMM" subtitle="video + social media" %}
-
-        {% include project-preview.html type="brand"
-                                        fullname="Circulus AgTech"
-                                        shortname="circulus" subtitle="brand" %}
-
-        {% include project-preview.html type="vid web"
-                                        fullname="Divest McGill"
-                                        shortname="divest" subtitle="video + website" %}
-
-        {% include project-preview.html type="web"
-                                        fullname="Milton Parc Citizen's Committee"
-                                        shortname="MPCC" subtitle="web" %}
-
-        {% include project-preview.html type="brand socmed web"
-                                        fullname="Youth Impact Challenge"
-                                        shortname="YIC" subtitle="website + brand + social media" %}
-
-        {% include project-preview.html type="brand"
-                                        fullname="IndigIrecruit"
-                                        shortname="indigirecruit" subtitle="brand" %}
-
-        {% include project-preview.html type="vid"
-                                        fullname="MealCare National"
-                                        shortname="mealcare" subtitle="video" %}
-
-        {% include project-preview.html type="brand web"
-                                        fullname="NSILC"
-                                        shortname="NSILC" subtitle="brand + web" %}
-
-        {% include project-preview.html type="vid web socmed"
-                                        fullname="Sustainable Business Youth Council"
-                                        shortname="CBYC" subtitle="social media + web + video" %}
-
-        {% include project-preview.html type="brand"
-                                        fullname="Thrive Collective"
-                                        shortname="thrive" subtitle="brand" %}
-
-        {% include project-preview.html type="brand socmed"
-                                        fullname="MMC Fest"
-                                        shortname="mmc-fest" subtitle="brand + social media" %}
-
-        {% include project-preview.html type="vid"
-                                        fullname="Kitchen 24"
-                                        shortname="kitchen-24" subtitle="video" %}
-
-        {% include project-preview.html type="vid web"
-                                        fullname="Black Students' Network"
-                                        shortname="BSN" subtitle="video + website" %}
-
-        {% include project-preview.html type="vid"
-                                        fullname="Eating Disorder Resource & Support Centre"
-                                        shortname="EDRSC" subtitle="video" %}
 
       </div>
 
-      <!-- <div class="row"><div class="col showmore-wrap">
-              <button class="showmore" onclick="showMore()">show more</button>
-      </div></div> -->
+      <div class="row"><div class="col showmore-wrap">
+              <button id="showmore" onclick="showMore()">show more</button>
+      </div></div>
 </div>
+
+<script src="../assets/js/port.js" charset="utf-8"></script>
 
 <style>
   /* This is all menu things, from hover effects to general styling */
@@ -121,7 +61,7 @@ permalink: /work
   .filter:hover { opacity: 1 !important }
   .filter:focus { outline: none; text-decoration: underline }
 
-  .filter, .filter-line, .showmore {
+  .filter, .filter-line, #showmore {
     pointer-events: auto;
     font-family: 'Montserrat-R';
     text-align: left;
@@ -136,6 +76,38 @@ permalink: /work
   }
 
   .showmore-wrap{ text-align: center; display:inline; height: 15em }
-  .showmore { text-decoration: underline }
-  .showmore:focus { outline: none }
+  #showmore { text-decoration: underline }
+  #showmore:focus { outline: none }
+
+  h1.thumbnail-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 0
+  }
+  h3.thumbnail-title { text-align: center }
+
+  /* This is ugly but it's what gives the hover logo effect */
+
+  .contain { position: relative }
+  .contain:hover .image { opacity: 0.1 }
+  .contain:hover .mid { opacity: 1 }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease-out;
+    transition-delay: .1s;
+    backface-visibility: hidden;
+  }
+  .mid {
+    transition: .4s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
 </style>

@@ -8,13 +8,12 @@ permalink: /about
 <div class="container-fluid" style="background-color:var(--dblue); padding-left: 8vw; padding-right:8vw">
     {% include menu-white.html button="about" color="-orng" percolor="navy" %}
   <div class="row">
-    <div class="col-9 offset-md-1 header w">
+    <div class="col-10 col-md-9 offset-sm-1 header w">
       <h1>My Media is a youth-run creative agency for the unheard<span class='big-period' style='color:var(--dorange)'>.</span></h1>
       <h2>We work with nonprofits, social enterprises, community organizations, and activist groups to tell compelling stories. </h2>
     </div>
   </div>
 </div>
-
     {% include circle.html mobile="hide-mobile" color="navy" size="20" top="20" left="5" z="0"%}
     {% include circle.html mobile="hide-mobile" color="dorange" size="15" top="80" left="60" z="0"%}
     {% include circle.html mobile="hide-mobile" color="white" size="7" top="30" left="80" z="0"%}
@@ -73,65 +72,9 @@ permalink: /about
       </div>
   </div>
 
-  {% include about-profile.html right="hide" type="exec creat"
-              name="Tristan Surman" title="Executive Director"
-              content="Tristan is the Executive Director at My Media, helping the team get access to the strategies, tools and opportunities that drive the organization forward. He loves making music, writing, and learning." %}
-
-  {% include about-profile.html left="hide" type="exec creat"
-              name="Tony Wang" title="Creative Director"
-              content="Tony is the Creative Director at My Media—he makes sure everything looks pretty and manages the Creative Team. He’s a big fan of horror films, Carly Rae Jepsen, and em dashes." %}
-
-  {% include about-profile.html right="hide" type="exec creat"
-              name="Ella Roy" title="Art Director"
-              content="Ella is our Art and Brand Director. She’s here to oversee My Media’s brand, and works directly with clients to build visual identities and brand strategies. She loves all kinds of design, discovering new places in Montreal and binge-watching The Office."%}
-
-  {% include about-profile.html left="hide" type="exec creat"
-              name="Sofia Mikton" title="Campaigns Director"
-              content="Sofia is the Campaigns Director at My Media. She works with clients and creatives to facilitate and coordinate campaigns. Sofia enjoys reading, baking and playing words with friends." %}
-
-  {% include about-profile.html right="hide" type="exec creat"
-              name="Max Brauch" title="Director of Video"
-              content="As the Director of Video Production at My Media, Max helps to shoot, edit, direct, and oversee all of the organization’s video content. He is a student filmmaker, and believes passionately in the power of activism through storytelling." %}
-
-  {% include about-profile.html left="hide" type="exec creat"
-              name="Liam Chung" title="Director of Tech and Web"
-              content="Liam is the Director of Technology and Web at My Media, designing and developing the organization's website, and lending expertise in the technical aspects of modern activism. He loves hip hop, Lord of the Rings, and math." %}
-
-  {% include about-profile.html right="hide" type="exec creat"
-              name="Ariane Te" title="Director of Product Design"
-              content="Ariane is the Director of Product Design at My Media—she works with clients to create effective and meaningful digital experiences. She loves drawing, moshing, and (sometimes) weight training." %}
-
-  {% include about-profile.html left="hide" type="exec"
-              name="Ana Earl" title="Director of Operations"
-              content="Ana is the Director of Operations at My Media. She makes sure the team functions and operates smoothly and designs the digital media education program. Ana loves her dog, Bee, running, and sweet potatoes." %}
-
-  {% include about-profile.html right="hide" type="exec"
-              name="Rachael Madore" title="Director of Outreach"
-              content="Rachael is the Director of Outreach at My Media, forging connections with change making non-profits and creatives alike to push us forward in our goal to amplify impact. She loves writing music, mindfulness, and markets." %}
-
-  {% include about-profile.html left="hide" type="exec"
-              name="Mako Sorensen" title="Director of Education"
-              content="Mako is a Co-Director of Education at My Media. He works in collaboration with the creatives to run immersive workshops and educational events. His main interests are in neuroscience and social activism, but what he loves most are people." %}
-
-  {% include about-profile.html right="hide" type="exec"
-              name="Nikhita Panwar" title="Director of Education"
-              content="Nikhita is a Co-Director of Education at My Media. She works to plan the education curriculum and workshops for My Media and coordinates with external partner organisations for the education program. She likes cooking, eating, and buying more plants than she has space for." %}
-
-  {% include about-profile.html left="hide" type="exec"
-              name="Julia Drummond" title="Director of Social Media"
-              content="Julia is the Director of Social Media at My Media, planning and managing the organization's social media accounts, and interacting with clients, community members, and creatives. She loves going to the beach, True Detective, and Montreal bagels." %}
-
-  {% include about-profile.html right="hide" type="exec"
-              name="Beatrice Dimaculangan" title="Director of Community"
-              content="Bea is the Community Director of My Media, contributing her activism/organizing experience to help facilitate workshops and foster connections with the community. She is a human rights activist and enjoys painting and making music." %}
-
-  {% include about-profile.html left="hide" type="creat last"
-              name="Amy Cooper" title="Creative"
-              content="Amy is a Product Designer at My Media, creating pixel-perfect digital products and creative content with incredible user experiences. She enjoys listening to music, staying active, and reading." %}
-
-  {% include about-profile.html right="hide" type="creat last"
-              name="David Boot" title="Creative"
-              content="David is a videographer at My Media, responsible for shooting and editing video content. He loves rap music, Chinese food and the outdoors." %}
+  <div id="profiles">
+    <script src="../assets/js/abt.js"></script>
+  </div>
 
   <div class="row" style="height: 15em"></div>
   {% include circle.html mobile="hide-mobile" color="lblue" size="12" top="255" left="6" z="0"%}
@@ -166,5 +109,14 @@ permalink: /about
     transition: 0.5s;
   }
   .filter, .filter-line { font-size: 3em; margin-right: 1vw }
+
+  .desc { font-size: 2.8em }
+  .title { font-size: 3.4em }
+  .position { font-family: Montserrat-R; font-size: inherit }
+
+  .hide { display: none }
+
+  @media only screen and (max-width: 1199px) { .hide-xl { display: inline } }
+  @media only screen and (min-width: 1200px) { .hide-xl { display: none } }
 
 </style>

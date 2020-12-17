@@ -1,5 +1,5 @@
 ---
-title: Youth Impact Challenge
+title: InvestEco + Renewal Funds
 type-work: brand + social media + website
 fname: YIC
 layout: portfolio-sub
