@@ -29,7 +29,7 @@ let abt_list = [
   {
     "type": "exec creat",
     "name": "Liam Chung",
-    "title": "Director of Web and Technology",
+    "title": "Director of Technology and Development",
     "content": "Liam designs and develops the organization's website, and lends expertise in the technical aspects of modern activism. He loves hip hop, Lord of the Rings, and math."
   },
   {
