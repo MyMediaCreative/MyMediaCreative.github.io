@@ -1,29 +1,33 @@
 ---
 title: InvestEco + Renewal Funds
-type-work: brand + social media + website
+type-work: digital strategy + web design + video + social media
 fname: YIC
 layout: portfolio-sub
 permalink: /work/YIC
 link: youthimpactchallenge.ca
 ---
 
-{% include port-img.html num="1" %}
+{% include port-link-img.html num="1" %}
 
-{% include port-pgph.html title="The client" offset="2" offset-mobile="2" color="dblue" content="InvestEco and Renewal Funds are two of Canada’s largest impact investment funds. Together, they launched the Youth Impact Challenge. It’s an idea competition for young people across the country who want to make a social/environmental impact.
+{% include port-pgph.html title="The client" offset="2" offset-mobile="2" color="dblue" content="InvestEco and Renewal Funds are two of Canada’s largest mission-driven investment funds. In 2020 they launched a competition for young people called the Youth Impact Challenge. The goal was to elicit great social/environmental impact ideas from brilliant young people across the country." %}
 
-This was their inaugural year - so they asked us to build a brand, a website, and run a national campaign that attracted 60+ high quality application. The only challenge: the application deadline was only a month away. So, we sprung into action." %}
+{% include port-link-img.html num="2" %}
 
-{% include port-img.html num="2" bottom-mar="10" %}
+{% include port-pgph.html title="The digital strategy" offset="3" offset-mobile="3" color="dorange" content="We worked with InvestEco and Renewal Funds to develop a national youth engagement campaign. Our goal was to solicit 60 applications from young people across the country, and build a small community on social media.
 
-{% include port-img.html num="3" %}
+We tripled our goal, soliciting 180 applications from more than 600 young people across the country. We stimulated more than 10,000 website visits just over 2 months, and attracted 700+ followers across social media pages in that same 2 month period." %}
 
-{% include port-web.html title="The campaign" offset="3" offset-mobile="1" color="dorange" content="We built a digital campaign that focused on the intersection between partnerships and content. We built symbiotic relationships brand partners, collaborated with relevant young influencers, and shared our content in digital community groups. Ultimately, we drove a massive Canada-wide campaign that engaged thousands of innovative young people.
+{% include port-link-img.html num="3" %}
 
-We built content that we knew would resonate with our audience, and drove them through social media to a website.
+{% include port-pgph.html title="Social media graphics" offset="4" offset-mobile="1" color="dblue" content="We developed several social media graphics that stimulated interest and engagement from followers alike." %}
 
-The results speak for themselves." %}
+{% include port-vid.html src="3Eg_bPJoqiY" %}
 
-{% include port-link-img.html num="4" bottom-mar="10"%}
+{% include port-pgph.html title="The video" offset="2" offset-mobile="2" color="dorange" content="We developed a launch video for the upcoming 2021 challenge. The goal was to be dynamic, while summarizing the impact of last year’s challenge." %}
+
+{% include port-link-img.html num="4" %}
+
+{% include port-pgph.html title="The web design" offset="4" offset-mobile="3" color="dblue" content="We built a website for the campaign that would engage young people, and make it as easy as possible for them to apply. We also used it to provide educational resources and FAQs for competitors." %}
 
 {% include port-link-img.html num="5" %}
 

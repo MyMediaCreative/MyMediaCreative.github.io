@@ -14,7 +14,7 @@ permalink: /work/nofish
 
 {% include port-pgph.html title="The project" offset="3" offset-mobile="3" color="dorange" content="After NoFish rebranded, they wanted to make sure their new style was reflected in their packaging. We worked with them to make something fun and casual. The result: a package that reflects the brand’s core principle: playfulness. Attached to every package is a game that sushi-eaters can play. " %}
 
-{% include port-img.html num="3" bottom-mar="20" %}
+{% include port-img.html num="3" bottom-mar="10" %}
 
 {% include port-img.html num="4" %}
 
