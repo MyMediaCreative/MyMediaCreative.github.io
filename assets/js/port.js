@@ -2,10 +2,16 @@ const PORT_PREV = '<div class="col-md-6 {{type}} {{half}} all proj-prev"><div cl
 
 let port = [
   {
-    "type": "socmed",
-    "shortname": "AisB",
-    "fullname": "Apathy is Boring",
-    "subtitle": "social media"
+    "type": "design strategy web",
+    "shortname": "YIC",
+    "fullname": "InvestEco + Renewal Funds",
+    "subtitle": "web + design + video + strategy"
+  },
+  {
+    "type": "design web",
+    "shortname": "psystem",
+    "fullname": "Psystem",
+    "subtitle": "web + design + strategy"
   },
   {
     "type": "vid",
@@ -14,40 +20,10 @@ let port = [
     "subtitle": "video"
   },
   {
-    "type": "brand",
-    "shortname": "indigirecruit",
-    "fullname": "IndigIrecruit",
-    "subtitle": "brand"
-  },
-  {
-    "type": "brand web",
-    "shortname": "circulus",
-    "fullname": "Circulus AgTech",
-    "subtitle": "brand + web"
-  },
-  {
-    "type": "vid web",
-    "shortname": "divest",
-    "fullname": "Divest McGill",
-    "subtitle": "video + web"
-  },
-  {
-    "type": "web",
-    "shortname": "MPCC",
-    "fullname": "Milton Parc Citizen's Committee",
-    "subtitle": "web"
-  },
-  {
-    "type": "brand socmed web",
-    "shortname": "YIC",
-    "fullname": "InvestEco + Renewal Funds",
-    "subtitle": "web + brand + social media"
-  },
-  {
-    "type": "vid socmed",
-    "shortname": "SOMM",
-    "fullname": "School of Music Montreal",
-    "subtitle": "video + social media"
+    "type": "strategy",
+    "shortname": "AisB",
+    "fullname": "Apathy is Boring",
+    "subtitle": "strategy"
   },
   {
     "type": "vid",
@@ -56,28 +32,100 @@ let port = [
     "subtitle": "video"
   },
   {
-    "type": "vid web socmed",
-    "shortname": "CBYC",
-    "fullname": "Sustainable Business Youth Council",
-    "subtitle": "social media + web + video"
+    "type": "design web",
+    "shortname": "circulus",
+    "fullname": "Circulus AgTech",
+    "subtitle": "design + web"
   },
   {
-    "type": "brand web",
-    "shortname": "NSILC",
-    "fullname": "NSILC",
-    "subtitle": "brand + web"
+    "type": "design strategy",
+    "shortname": "ethical-coach",
+    "fullname": "EthicalCoach",
+    "subtitle": "design + strategy"
   },
   {
-    "type": "brand",
+    "type": "vid strategy",
+    "shortname": "SOMM",
+    "fullname": "School of Music Montreal",
+    "subtitle": "video + strategy"
+  },
+  {
+    "type": "design",
+    "shortname": "indigirecruit",
+    "fullname": "IndigIrecruit",
+    "subtitle": "design"
+  },
+  {
+    "type": "web",
+    "shortname": "MPCC",
+    "fullname": "Milton Parc Citizen's Committee",
+    "subtitle": "web"
+  },
+  {
+    "type": "vid web",
+    "shortname": "divest",
+    "fullname": "Divest McGill",
+    "subtitle": "video + web"
+  },
+  {
+    "type": "design",
+    "shortname": "nofish",
+    "fullname": "NoFish",
+    "subtitle": "design"
+  },
+  {
+    "type": "vid",
+    "shortname": "WUSC",
+    "fullname": "WUSC McGill",
+    "subtitle": "video"
+  },
+  {
+    "type": "design",
+    "shortname": "homie",
+    "fullname": "Homie Collective",
+    "subtitle": "design"
+  },
+  {
+    "type": "vid",
+    "shortname": "story-planet",
+    "fullname": "Story Planet",
+    "subtitle": "video"
+  },
+  {
+    "type": "design",
     "shortname": "thrive",
     "fullname": "Thrive Collective",
-    "subtitle": "brand"
+    "subtitle": "design"
   },
   {
-    "type": "brand socmed",
+    "type": "vid web strategy",
+    "shortname": "CBYC",
+    "fullname": "Sustainable Business Youth Council",
+    "subtitle": "strategy + web + video"
+  },
+  {
+    "type": "design web",
+    "shortname": "NSILC",
+    "fullname": "NSILC",
+    "subtitle": "design + web"
+  },
+  {
+    "type": "vid",
+    "shortname": "repit",
+    "fullname": "Répit-Ressource",
+    "subtitle": "video"
+  },
+  {
+    "type": "vid",
+    "shortname": "PCPWI",
+    "fullname": "PCPWI",
+    "subtitle": "video"
+  },
+  {
+    "type": "design strategy",
     "shortname": "mmc-fest",
     "fullname": "MMC Fest",
-    "subtitle": "brand + social media"
+    "subtitle": "design + strategy"
   },
   {
     "type": "vid",
@@ -140,21 +188,21 @@ function assignMoreData(){
 
 
 // {% comment %}
-// {% include project-preview.html type="socmed"
+// {% include project-preview.html type="strategy"
 //                                 fullname="Apathy is Boring"
-//                                 shortname="AisB" subtitle="social media" %}
+//                                 shortname="AisB" subtitle="strategy" %}
 //
 // {% include project-preview.html type="vid"
 //                                 fullname="UpstartED"
 //                                 shortname="upstart" subtitle="video" %}
 //
-// {% include project-preview.html type="vid socmed"
+// {% include project-preview.html type="vid strategy"
 //                                 fullname="The School of Music Montreal"
-//                                 shortname="SOMM" subtitle="video + social media" %}
+//                                 shortname="SOMM" subtitle="video + strategy" %}
 //
-// {% include project-preview.html type="brand web"
+// {% include project-preview.html type="design web"
 //                                 fullname="Circulus AgTech"
-//                                 shortname="circulus" subtitle="brand + web" %}
+//                                 shortname="circulus" subtitle="design + web" %}
 //
 // {% include project-preview.html type="vid web"
 //                                 fullname="Divest McGill"
@@ -164,33 +212,33 @@ function assignMoreData(){
 //                                 fullname="Milton Parc Citizen's Committee"
 //                                 shortname="MPCC" subtitle="web" %}
 //
-// {% include project-preview.html type="brand socmed web"
+// {% include project-preview.html type="design strategy web"
 //                                 fullname="Youth Impact Challenge"
-//                                 shortname="YIC" subtitle="website + brand + social media" %}
+//                                 shortname="YIC" subtitle="website + design + strategy" %}
 //
-// {% include project-preview.html type="brand"
+// {% include project-preview.html type="design"
 //                                 fullname="IndigIrecruit"
-//                                 shortname="indigirecruit" subtitle="brand" %}
+//                                 shortname="indigirecruit" subtitle="design" %}
 //
 // {% include project-preview.html type="vid"
 //                                 fullname="MealCare National"
 //                                 shortname="mealcare" subtitle="video" %}
 //
-// {% include project-preview.html type="brand web"
+// {% include project-preview.html type="design web"
 //                                 fullname="NSILC"
-//                                 shortname="NSILC" subtitle="brand + web" %}
+//                                 shortname="NSILC" subtitle="design + web" %}
 //
-// {% include project-preview.html type="vid web socmed"
+// {% include project-preview.html type="vid web strategy"
 //                                 fullname="Sustainable Business Youth Council"
-//                                 shortname="CBYC" subtitle="social media + web + video" %}
+//                                 shortname="CBYC" subtitle="strategy + web + video" %}
 //
-// {% include project-preview.html type="brand"
+// {% include project-preview.html type="design"
 //                                 fullname="Thrive Collective"
-//                                 shortname="thrive" subtitle="brand" %}
+//                                 shortname="thrive" subtitle="design" %}
 //
-// {% include project-preview.html type="brand socmed"
+// {% include project-preview.html type="design strategy"
 //                                 fullname="MMC Fest"
-//                                 shortname="mmc-fest" subtitle="brand + social media" %}
+//                                 shortname="mmc-fest" subtitle="design + strategy" %}
 //
 // {% include project-preview.html type="vid"
 //                                 fullname="Kitchen 24"
