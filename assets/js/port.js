@@ -38,16 +38,16 @@ let port = [
     "subtitle": "design + web"
   },
   {
-    "type": "design strategy",
+    "type": "design",
     "shortname": "ethical-coach",
     "fullname": "EthicalCoach",
-    "subtitle": "design + strategy"
+    "subtitle": "design"
   },
   {
-    "type": "vid strategy",
+    "type": "vid",
     "shortname": "SOMM",
     "fullname": "School of Music Montreal",
-    "subtitle": "video + strategy"
+    "subtitle": "video"
   },
   {
     "type": "design",
@@ -82,7 +82,7 @@ let port = [
   {
     "type": "design",
     "shortname": "homie",
-    "fullname": "Homie Collective",
+    "fullname": "Homie Collection",
     "subtitle": "design"
   },
   {
