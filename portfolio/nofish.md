@@ -1,22 +1,20 @@
 ---
-title: IndigIrecruit
-type-work: brand
-fname: indigirecruit
+title: NoFish
+type-work: packaging + brand design
+fname: nofish
 layout: portfolio-sub
-permalink: /work/indigirecruit
+permalink: /work/nofish
 ---
 
 {% include port-img.html num="1" %}
 
-{% include port-pgph.html title="The client" offset="2" offset-mobile="1" color="dblue" content="Indigirecruit is a grassroots, Indigenous-led, organization mission is to break down barriers for Indigenous youth trying to further their education. Right now, the application process is a significant barrier for young indigenous people. They provide the tools and knowledge one might need to navigate that process successfully." %}
+{% include port-pgph.html title="The client" offset="2" offset-mobile="1" color="dblue" content="NoFish is a casual plant-based sushi brand based in Montreal. Led by the people behind Sushi MoMo, NoFish wants to make plant based eating the norm. The brand is playful. The boxes are beautiful. The sushi is great." %}
 
 {% include port-img.html num="2" %}
 
-{% include port-pgph.html title="The project" offset="3" offset-mobile="3" color="dorange" content="Indigirecruit, an emerging social enterprise, needed to build their brand from scratch. We started with a book and a feather, the visual expression of the organization’s two guiding principles: indigenous representation and access to education. We tied that together with a modern typeface and bright color palette built around the colors of the Iroquois Confederacy." %}
+{% include port-pgph.html title="The project" offset="3" offset-mobile="3" color="dorange" content="After NoFish rebranded, they wanted to make sure their new style was reflected in their packaging. We worked with them to make something fun and casual. The result: a package that reflects the brand’s core principle: playfulness. Attached to every package is a game that sushi-eaters can play. " %}
 
-{% include port-img.html num="3" %}
-
-{% include port-pgph.html title="Testimonial" offset="4" offset-mobile="2" color="dblue" content="&#8220;My Media Creative has perfectly responded to our needs with professionalism, efficiency and flexibility. Even though we provided them with very broad guidelines, they accurately grasp our vision and came up with a stunning final product. Working with a passionate team that cares about your project as much as you do is a delightful feeling.&#8221;" %}
+{% include port-img.html num="3" bottom-mar="20" %}
 
 {% include port-img.html num="4" %}
 

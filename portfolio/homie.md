@@ -1,22 +1,23 @@
 ---
-title: IndigIrecruit
-type-work: brand
-fname: indigirecruit
+title: Homie Collection
+type-work: brand design + packaging
+fname: homie
 layout: portfolio-sub
-permalink: /work/indigirecruit
+permalink: /work/homie
 ---
 
 {% include port-img.html num="1" %}
 
-{% include port-pgph.html title="The client" offset="2" offset-mobile="1" color="dblue" content="Indigirecruit is a grassroots, Indigenous-led, organization mission is to break down barriers for Indigenous youth trying to further their education. Right now, the application process is a significant barrier for young indigenous people. They provide the tools and knowledge one might need to navigate that process successfully." %}
+{% include port-pgph.html title="The client" offset="2" offset-mobile="1" color="dblue" content="Homie Collection is a line of products for purposeful home-organizers. With a commitment to sustainability, and a focus on building community, the Homie Collection wants to make home-organization more accessible. Homie Collection spreads the joy of an organized space." %}
 
 {% include port-img.html num="2" %}
 
-{% include port-pgph.html title="The project" offset="3" offset-mobile="3" color="dorange" content="Indigirecruit, an emerging social enterprise, needed to build their brand from scratch. We started with a book and a feather, the visual expression of the organization’s two guiding principles: indigenous representation and access to education. We tied that together with a modern typeface and bright color palette built around the colors of the Iroquois Confederacy." %}
+{% include port-pgph.html title="The brand" offset="3" offset-mobile="3" color="dorange" content="Homie Collection’s brand evokes relief. That moment when you’ve spent a whole day tearing your room apart, and putting it back together—and now it’s what you always imagined it could be. It’s the feeling comfort that comes with a tidy home. It’s the feeling of excitement to get up the day after you did a deep clean. It’s spring. It’s simple, clean, and inviting.
+" %}
 
 {% include port-img.html num="3" %}
 
-{% include port-pgph.html title="Testimonial" offset="4" offset-mobile="2" color="dblue" content="&#8220;My Media Creative has perfectly responded to our needs with professionalism, efficiency and flexibility. Even though we provided them with very broad guidelines, they accurately grasp our vision and came up with a stunning final product. Working with a passionate team that cares about your project as much as you do is a delightful feeling.&#8221;" %}
+{% include port-pgph.html title="The packaging" offset="4" offset-mobile="2" color="dblue" content="To package their first product, Homie Collection wanted to design a package that makes you smile when it arrives at your door. It’s the purchase you make when it’s sunny for the first time in months. It’s the kind of package you keep for a while—because it belongs in your home." %}
 
 {% include port-img.html num="4" %}
 

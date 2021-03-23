@@ -1,24 +1,17 @@
 ---
-title: School of Music Montreal
-type-work: video + social media
-fname: SOMM
+title: WUSC McGill
+type-work: video
+fname: WUSC
 layout: portfolio-sub
-permalink: /work/SOMM
+permalink: /work/WUSC
 ---
 
-{% include port-vid.html src="2KyEParN54w" %}
+{% include port-vid.html src="R7FcLp8NYHw" %}
 
-{% include port-pgph.html title="The client" offset="2" offset-mobile="2" color="dblue" content="The School of Music Montreal (SoMM) empowers young people through music. With an eye towards supporting those on the economic and social margins, SoMM provides free music lessons in classrooms across Montreal. They see music not just as a skill to develop, but also as a way that one can feel a sense of ownership and safety in their learning." %}
+{% include port-pgph.html title="The client" offset="2" offset-mobile="2" color="dblue" content="The World University Services of Canada’s McGill Chapters sponsors 4 refugees every year. Sponsorship means help coming to Canada, support in paying tuition fees, and funding for books. Beyond that, it means providing the basic necessities some needs to thrive in a new country: winter clothes, food, social connections, and shelter. WUSC helps young people set up a new life, and invests in their long term growth." %}
 
 {% include port-img.html num="1" %}
 
-{% include port-pgph.html title="The project" offset="3" offset-mobile="1" color="dorange" content="SoMM wanted a video that spoke to the things that they do, and the impact they have. The goal was to use it to attract volunteers and build meaningful partnerships with schools. We went into several classrooms to observe the learning process, and interviewed volunteers about the impact that they are having. The result? A beautiful video that speaks to the joy of music in one’s life." %}
+{% include port-pgph.html title="The project" offset="3" offset-mobile="1" color="dorange" content="WUSC was aiming to raise their annual fee, solicited from students at McGill. We made a video to support their campaign to get students to vote for the fee raise. At the end of the day, more than 2000 students voted in favour of the campaign. We wanted to tell the story of a young refugee’s life through objects. Not just the basic necessities that set them up, but also the things that represented their growth and flourishing. The final message: WUSC helps build lives, and with two dollars, the audience can too." %}
 
 {% include port-img.html num="2" %}
-
-{% include port-pgph.html title="Testimonial" offset="4" color="dblue" content="&#8220;Working with this group was awesome! They were flexible, professional, open to ideas, and easy to communicate with. Their enthusiastic team is full of creative ideas, and their passion for our cause made our vision truly come to life. We were amazed by the quality of their content, and LOVED the promotional video they made for us at SoMM. <br> <br>
-
-I highly recommend My Media Creative for any media and design needs; on behalf of SoMM, thank you so much for everything!&#8221;" %}
-
-{% include circle.html mobile="hide-mobile" color="navy" size="15" top="590" left="10" z="0"%}
-{% include circle.html mobile="hide-mobile" color="lblue" size="15" top="520" left="75" z="0"%}

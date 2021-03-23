@@ -13,7 +13,7 @@ link: youthimpactchallenge.ca
 
 This was their inaugural year - so they asked us to build a brand, a website, and run a national campaign that attracted 60+ high quality application. The only challenge: the application deadline was only a month away. So, we sprung into action." %}
 
-{% include port-img.html num="2" bottom-mar="20" %}
+{% include port-img.html num="2" bottom-mar="10" %}
 
 {% include port-img.html num="3" %}
 
@@ -23,7 +23,7 @@ We built content that we knew would resonate with our audience, and drove them t
 
 The results speak for themselves." %}
 
-{% include port-link-img.html num="4" bottom-mar="20"%}
+{% include port-link-img.html num="4" bottom-mar="10"%}
 
 {% include port-link-img.html num="5" %}
 
