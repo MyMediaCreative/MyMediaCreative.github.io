@@ -44,24 +44,24 @@ let abt_list = [
     "title": "Director of Product Design",
     "content": "Ariane works with clients to create effective and meaningful digital experiences. She loves drawing, moshing, and (sometimes) weight training."
   },
-  {
-    "type": "exec creat",
-    "name": "Simrit Dhillon",
-    "title": "UX/UI Design Intern",
-    "content": "Simrit is a UX/UI designer, illustrator, and huge marvel fan. She loves to watch movies, read books, listen to Khalid, and push pixels to perfection."
-  },
-  {
-    "type": "exec creat",
-    "name": "Giulia Caruana",
-    "title": "Graphic Designer / Art Director",
-    "content": "Giulia conceptualizes and designs thoughtful ad campaigns and visual identities. Her passions include rating things, expanding her platform shoe collection, and looking for pasta on the menu."
-  },
-  {
-    "type": "exec creat",
-    "name": "Prerna Vinod",
-    "title": "Product Designer",
-    "content": "Prerna puts her design skills to use by working on digital interfaces that brings the client’s vision to life. She is a huge fan of crime documentaries, badminton and spending time with her friends."
-  },
+  // {
+  //   "type": "exec creat",
+  //   "name": "Simrit Dhillon",
+  //   "title": "UX/UI Design Intern",
+  //   "content": "Simrit is a UX/UI designer, illustrator, and huge marvel fan. She loves to watch movies, read books, listen to Khalid, and push pixels to perfection."
+  // },
+  // {
+  //   "type": "exec creat",
+  //   "name": "Giulia Caruana",
+  //   "title": "Graphic Designer / Art Director",
+  //   "content": "Giulia conceptualizes and designs thoughtful ad campaigns and visual identities. Her passions include rating things, expanding her platform shoe collection, and looking for pasta on the menu."
+  // },
+  // {
+  //   "type": "exec creat",
+  //   "name": "Prerna Vinod",
+  //   "title": "Product Designer",
+  //   "content": "Prerna puts her design skills to use by working on digital interfaces that brings the client’s vision to life. She is a huge fan of crime documentaries, badminton and spending time with her friends."
+  // },
   {
     "type": "exec",
     "name": "Ana Earl",
