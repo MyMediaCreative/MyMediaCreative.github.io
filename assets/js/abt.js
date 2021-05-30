@@ -23,7 +23,7 @@ let abt_list = [
   {
     "type": "exec creat",
     "name": "Ella Roy",
-    "title": "Art Director",
+    "title": "Senior Art Director",
     "content": "Ella's here to oversee My Media’s brand, and works directly with clients to build visual identities and brand strategies. She loves all kinds of design, discovering new places in Montreal and binge-watching The Office."
   },
   {
@@ -44,40 +44,34 @@ let abt_list = [
     "title": "Director of Product Design",
     "content": "Ariane works with clients to create effective and meaningful digital experiences. She loves drawing, moshing, and (sometimes) weight training."
   },
-  // {
-  //   "type": "exec creat",
-  //   "name": "Simrit Dhillon",
-  //   "title": "UX/UI Design Intern",
-  //   "content": "Simrit is a UX/UI designer, illustrator, and huge marvel fan. She loves to watch movies, read books, listen to Khalid, and push pixels to perfection."
-  // },
-  // {
-  //   "type": "exec creat",
-  //   "name": "Giulia Caruana",
-  //   "title": "Graphic Designer / Art Director",
-  //   "content": "Giulia conceptualizes and designs thoughtful ad campaigns and visual identities. Her passions include rating things, expanding her platform shoe collection, and looking for pasta on the menu."
-  // },
-  // {
-  //   "type": "exec creat",
-  //   "name": "Prerna Vinod",
-  //   "title": "Product Designer",
-  //   "content": "Prerna puts her design skills to use by working on digital interfaces that brings the client’s vision to life. She is a huge fan of crime documentaries, badminton and spending time with her friends."
-  // },
   {
-    "type": "exec",
-    "name": "Ana Earl",
-    "title": "Director of Programs",
-    "content": "Ana oversees and sets out a direction for our educational programs. She makes sure the Education and Programs team is on track—and makes sure our curriculum is serving learners. Ana loves her dog, Bee, running, and sweet potatoes."
+    "type": "exec creat",
+    "name": "Simrit Dhillon",
+    "title": "UX/UI Designer",
+    "content": "Simrit is a UX/UI designer, illustrator, and huge marvel fan. She loves to watch movies, read books, listen to Khalid, and push pixels to perfection."
+  },
+  {
+    "type": "exec creat",
+    "name": "Giulia Caruana",
+    "title": "Junior Art Director",
+    "content": "Giulia conceptualizes and designs thoughtful ad campaigns and visual identities. Her passions include rating things, expanding her platform shoe collection, and looking for pasta on the menu."
+  },
+  {
+    "type": "exec creat",
+    "name": "Prerna Vinod",
+    "title": "Product Designer",
+    "content": "Prerna puts her design skills to use by working on digital interfaces that brings the client’s vision to life. She is a huge fan of crime documentaries, badminton and spending time with her friends."
   },
   {
     "type": "exec",
     "name": "Rachael Madore",
-    "title": "Director of Program Partnerships",
+    "title": "Program Officer",
     "content": "Rachael is in charge of building and maintaining connections with local non-profits and eager learners. She helps coordinate the relationship between those two parties. She loves writing music, mindfulness, and markets."
   },
   {
     "type": "exec",
     "name": "Mako Sorensen",
-    "title": "Director of Education",
+    "title": "Account Officer",
     "content": "Mako works in collaboration with the creatives to run immersive workshops and educational events. His main interests are in neuroscience and social activism, but what he loves most are people."
   },
   {
