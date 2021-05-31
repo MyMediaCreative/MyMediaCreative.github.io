@@ -53,7 +53,7 @@ let abt_list = [
   {
     "type": "exec creat",
     "name": "Giulia Caruana",
-    "title": "Junior Art Director",
+    "title": "Art Director",
     "content": "Giulia conceptualizes and designs thoughtful ad campaigns and visual identities. Her passions include rating things, expanding her platform shoe collection, and looking for pasta on the menu."
   },
   {
