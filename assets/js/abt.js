@@ -10,12 +10,6 @@ let abt_list = [
   },
   {
     "type": "exec creat",
-    "name": "Tony Wang",
-    "title": "Creative Director",
-    "content": "Tony makes sure everything looks pretty and manages the Creative Team. He’s a big fan of horror films, Carly Rae Jepsen, and em dashes."
-  },
-  {
-    "type": "exec creat",
     "name": "Sofia Mikton",
     "title": "Campaigns Director",
     "content": "Sofia works with clients and creatives to facilitate and coordinate campaigns. Sofia enjoys reading, baking and playing words with friends."
@@ -36,13 +30,19 @@ let abt_list = [
     "type": "exec creat",
     "name": "Max Brauch",
     "title": "Director of Video",
-    "content": "Max helps to shoot, edit, direct, and oversee all of the organization’s video content. He is a student filmmaker, and believes passionately in the power of activism through storytelling."
+    "content": "Max helps to shoot, edit, and direct the organization’s video content. He is a student filmmaker, and believes passionately in the power of activism through storytelling."
   },
   {
     "type": "exec creat",
     "name": "Ariane Te",
     "title": "Director of Product Design",
     "content": "Ariane works with clients to create effective and meaningful digital experiences. She loves drawing, moshing, and (sometimes) weight training."
+  },
+  {
+    "type": "exec creat",
+    "name": "Tony Wang",
+    "title": "Videographer",
+    "content": "Tony is in charge of producing all of our video content, making sure that every client’s story is told honestly and compellingly. He’s a big fan of horror films, Carly Rae Jepsen, and em dashes."
   },
   {
     "type": "exec creat",
@@ -53,7 +53,7 @@ let abt_list = [
   {
     "type": "exec creat",
     "name": "Giulia Caruana",
-    "title": "Art Director",
+    "title": "Graphic Designer",
     "content": "Giulia conceptualizes and designs thoughtful ad campaigns and visual identities. Her passions include rating things, expanding her platform shoe collection, and looking for pasta on the menu."
   },
   {
