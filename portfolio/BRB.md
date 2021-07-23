@@ -3,7 +3,7 @@ title: Black Rose Books
 type-work: design + web
 fname: BRB
 layout: portfolio-sub
-permalink: /work/brb
+permalink: /work/BRB
 link: blackrosebooks.com
 ---
 
