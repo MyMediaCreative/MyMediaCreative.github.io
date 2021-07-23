@@ -3,7 +3,7 @@ title: McGill Policy Association
 type-work: design + strategy
 fname: MPA
 layout: portfolio-sub
-permalink: /work/mpa
+permalink: /work/MPA
 ---
 
 {% include port-img.html num="1" %}
