@@ -1,9 +1,9 @@
 ---
-dtitle: AMUSE
+title: AMUSE
 type-work: video
-fname: AMUSE
+fname: amuse
 layout: portfolio-sub
-permalink: /work/AMUSE
+permalink: /work/amuse
 ---
 
 {% include port-vid.html src="MWRM7le84Fo" %}
