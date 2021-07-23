@@ -165,7 +165,7 @@ let port = [
   },
   {
     "type": "vid",
-    "shortname": "amuse",
+    "shortname": "AMUSE",
     "fullname": "AMUSE",
     "subtitle": "video"
   },
