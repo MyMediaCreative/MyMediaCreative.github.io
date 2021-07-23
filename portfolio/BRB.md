@@ -1,6 +1,6 @@
 ---
 title: Black Rose Books
-type-work: brand + web
+type-work: design + web
 fname: BRB
 layout: portfolio-sub
 permalink: /work/brb

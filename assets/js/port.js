@@ -15,6 +15,18 @@ let port = [
   },
   {
     "type": "vid",
+    "shortname": "mcconnell",
+    "fullname": "McConnell Foundation",
+    "subtitle": "video"
+  },
+  {
+    "type": "design web strategy",
+    "shortname": "infaque",
+    "fullname": "Infāque",
+    "subtitle": "strategy + design + web"
+  },
+  {
+    "type": "vid",
     "shortname": "upstart",
     "fullname": "UpstartED",
     "subtitle": "video"
@@ -24,6 +36,72 @@ let port = [
     "shortname": "AisB",
     "fullname": "Apathy is Boring",
     "subtitle": "strategy"
+  },
+  {
+    "type": "vid strategy",
+    "shortname": "forgotten",
+    "fullname": "Forgotten Names",
+    "subtitle": "video + strategy"
+  },
+  {
+    "type": "strategy web design",
+    "shortname": "mcluhan",
+    "fullname": "McLuhan Foundation",
+    "subtitle": "strategy + design + web"
+  },
+  {
+    "type": "strategy design",
+    "shortname": "EVD-nofish",
+    "fullname": "Easy. Vegan. Delicious. NoFish.",
+    "subtitle": "strategy + design"
+  },
+  {
+    "type": "vid",
+    "shortname": "SOMM",
+    "fullname": "School of Music Montreal",
+    "subtitle": "video"
+  },
+  {
+    "type": "web",
+    "shortname": "MPCC",
+    "fullname": "Milton Parc Citizen's Committee",
+    "subtitle": "web"
+  },
+  {
+    "type": "strategy design",
+    "shortname": "psystem-listens",
+    "fullname": "Psystem Listens",
+    "subtitle": "strategy + design"
+  },
+  {
+    "type": "design",
+    "shortname": "indigirecruit",
+    "fullname": "IndigIrecruit",
+    "subtitle": "design"
+  },
+  {
+    "type": "design",
+    "shortname": "ethical-coach",
+    "fullname": "EthicalCoach",
+    "subtitle": "design"
+  },
+  {
+    "type": "vid",
+    "shortname": "repit2",
+    "fullname": "Pret de ton coeur",
+    "subtitle": "video"
+  },
+  {
+    "type": "strategy design",
+    "shortname": "MPA",
+    "fullname": "McGill Policy Association",
+    "subtitle": "strategy + design"
+  },
+  {
+    "type": "strategy design",
+    "shortname": "ECxTHP",
+    "fullname": "EthicalCoach x The Hunger Project",
+    "subtitle": "strategy + design"
   },
   {
     "type": "vid",
@@ -38,28 +116,10 @@ let port = [
     "subtitle": "design + web"
   },
   {
-    "type": "design",
-    "shortname": "ethical-coach",
-    "fullname": "EthicalCoach",
-    "subtitle": "design"
-  },
-  {
     "type": "vid",
-    "shortname": "SOMM",
-    "fullname": "School of Music Montreal",
+    "shortname": "walksafe",
+    "fullname": "WalkSafe",
     "subtitle": "video"
-  },
-  {
-    "type": "design",
-    "shortname": "indigirecruit",
-    "fullname": "IndigIrecruit",
-    "subtitle": "design"
-  },
-  {
-    "type": "web",
-    "shortname": "MPCC",
-    "fullname": "Milton Parc Citizen's Committee",
-    "subtitle": "web"
   },
   {
     "type": "vid web",
@@ -96,6 +156,18 @@ let port = [
     "shortname": "thrive",
     "fullname": "Thrive Collective",
     "subtitle": "design"
+  },
+  {
+    "type": "design web",
+    "shortname": "BRB",
+    "fullname": "Black Rose Books",
+    "subtitle": "design + web"
+  },
+  {
+    "type": "vid",
+    "shortname": "amuse",
+    "fullname": "AMUSE",
+    "subtitle": "video"
   },
   {
     "type": "vid web strategy",

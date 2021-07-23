@@ -1,5 +1,5 @@
 ---
-title: Pred de ton coeur
+title: Pret de ton coeur
 type-work: video
 fname: repit2
 layout: portfolio-sub
