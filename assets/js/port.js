@@ -118,7 +118,7 @@ let port = [
   {
     "type": "vid",
     "shortname": "walksafe",
-    "fullname": "WalkSafe",
+    "fullname": "WALKSAFE",
     "subtitle": "video"
   },
   {
