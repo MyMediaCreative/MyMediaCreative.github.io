@@ -30,7 +30,7 @@ let abt_list = [
     "type": "exec creat",
     "name": "Andrew Mingo",
     "title": "Art Director",
-    "content": ""
+    "content": "Andrew works with client on a wide range of design projects. They specialize in branding and visual identity, as well as web and motion graphics. When Andrew is not designing you can find him bingeing the newest queer drama on Netflix or catching up on some Z’s."
   },
   {
     "type": "exec creat",
