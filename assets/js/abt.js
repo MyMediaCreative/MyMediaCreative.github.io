@@ -10,8 +10,14 @@ let abt_list = [
   },
   {
     "type": "exec creat",
+    "name": "Tony Wang",
+    "title": "Creative Director",
+    "content": "Tony is the Creative Director at My Media—he makes sure everything looks pretty and manages the Creative Team. He’s a big fan of horror films, Carly Rae Jepsen, and em dashes."
+  },
+  {
+    "type": "exec creat",
     "name": "Sofia Mikton",
-    "title": "Campaigns Director",
+    "title": "Director of Operations",
     "content": "Sofia works with clients and creatives to facilitate and coordinate campaigns. Sofia enjoys reading, baking and playing words with friends."
   },
   {
@@ -19,6 +25,12 @@ let abt_list = [
     "name": "Ella Roy",
     "title": "Senior Art Director",
     "content": "Ella's here to oversee My Media’s brand, and works directly with clients to build visual identities and brand strategies. She loves all kinds of design, discovering new places in Montreal and binge-watching The Office."
+  },
+  {
+    "type": "exec creat",
+    "name": "Andrew Mingo",
+    "title": "Art Director",
+    "content": ""
   },
   {
     "type": "exec creat",
@@ -40,63 +52,15 @@ let abt_list = [
   },
   {
     "type": "exec creat",
-    "name": "Tony Wang",
-    "title": "Videographer",
-    "content": "Tony is in charge of producing all of our video content, making sure that every client’s story is told honestly and compellingly. He’s a big fan of horror films, Carly Rae Jepsen, and em dashes."
-  },
-  {
-    "type": "exec creat",
     "name": "Simrit Dhillon",
     "title": "UX/UI Designer",
     "content": "Simrit is a UX/UI designer, illustrator, and huge marvel fan. She loves to watch movies, read books, listen to Khalid, and push pixels to perfection."
   },
   {
     "type": "exec creat",
-    "name": "Giulia Caruana",
-    "title": "Graphic Designer",
-    "content": "Giulia conceptualizes and designs thoughtful ad campaigns and visual identities. Her passions include rating things, expanding her platform shoe collection, and looking for pasta on the menu."
-  },
-  {
-    "type": "exec creat",
     "name": "Prerna Vinod",
     "title": "Product Designer",
     "content": "Prerna puts her design skills to use by working on digital interfaces that brings the client’s vision to life. She is a huge fan of crime documentaries, badminton and spending time with her friends."
-  },
-  {
-    "type": "exec",
-    "name": "Rachael Madore",
-    "title": "Program Officer",
-    "content": "Rachael is in charge of building and maintaining connections with local non-profits and eager learners. She helps coordinate the relationship between those two parties. She loves writing music, mindfulness, and markets."
-  },
-  {
-    "type": "exec",
-    "name": "Mako Sorensen",
-    "title": "Account Officer",
-    "content": "Mako works in collaboration with the creatives to run immersive workshops and educational events. His main interests are in neuroscience and social activism, but what he loves most are people."
-  },
-  {
-    "type": "exec",
-    "name": "Nikhita Panwar",
-    "title": "Director of Education",
-    "content": "Nikhita works to plan the education curriculum and workshops for My Media and coordinates with external partner organisations for the education program. She likes cooking, eating, and buying more plants than she has space for."
-  },
-  {
-    "type": "exec",
-    "name": "Beatrice Dimaculangan",
-    "title": "Director of Community",
-    "content": "Bea contributes her activism/organizing experience to help facilitate workshops and foster connections with the community. She is a human rights activist and enjoys painting and making music."
-  },
-  {
-    "type": "creat",
-    "name": "Corentin Jeanrot",
-    "title": "Graphic Designer",
-    "content": "Corentin works directly with clients to build logos, visual identities and branding content. Besides annoying his friends, Corentin loves spending time in nature and going on all sorts of hikes and adventures with his favourite humans."
-  },
-  {
-    "type": "creat",
-    "name": "Amy Cooper",
-    "title": "Product Designer",
-    "content": "Amy is a Product Designer at My Media, creating pixel-perfect digital products and creative content with incredible user experiences. She enjoys listening to music, staying active, and reading."
   },
   {
     "type": "creat",
